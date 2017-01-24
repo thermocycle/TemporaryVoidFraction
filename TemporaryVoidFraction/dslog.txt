@@ -1,0 +1,2403 @@
+Log-file of program ./dymosim
+(generated: Tue Jan 24 14:24:33 2017)
+
+dymosim started
+... "dsin.txt" loading (dymosim input file)
+ERROR: Failed to solve non-linear system using Newton solver.
+To get more information: Turn on Simulation/Setup/Debug/Nonlinear solver diagnostics/Details
+Solution to systems of equations not found at time = 0
+   Nonlinear system of equations number = 1
+   Infinity-norm of residue = 313422
+   Iteration is not making good progress.
+   Accumulated number of residue calculations: 10525
+   Last values of solution vector:
+CondenserWall.T_wall[26] = 305.382
+CondenserWall.Wall_ext.phi[27] = -3.5991
+CondenserWall.T_wall[27] = 305.376
+CondenserWall.Wall_ext.phi[28] = -3.56372
+CondenserWall.T_wall[28] = 305.374
+CondenserWall.Wall_ext.phi[29] = -2.54302
+CondenserWall.T_wall[29] = 305.31
+CondenserWall.Wall_ext.phi[30] = -13.6619
+CondenserWall.T_wall[30] = 306.005
+CondenserWall.Wall_ext.phi[2] = -7.03482
+CondenserWall.T_wall[2] = 305.593
+CondenserWall.Wall_ext.phi[1] = -26.8126
+CondenserWall.T_wall[1] = 306.866
+DischargeLinewall.Wall_ext.phi[10] = -20.6378
+DischargeLinewall.T_wall[10] = 309.737
+DischargeLinewall.Wall_ext.phi[9] = -48.7058
+DischargeLinewall.T_wall[9] = 312.973
+DischargeLinewall.Wall_ext.phi[8] = -51.871
+DischargeLinewall.T_wall[8] = 312.722
+DischargeLinewall.Wall_ext.phi[7] = -55.2413
+DischargeLinewall.T_wall[7] = 311.042
+DischargeLinewall.Wall_ext.phi[6] = -59.3258
+DischargeLinewall.T_wall[6] = 312.947
+DischargeLinewall.Wall_ext.phi[5] = -62.1293
+DischargeLinewall.T_wall[5] = 311.266
+DischargeLinewall.Wall_ext.phi[4] = -66.3463
+DischargeLinewall.T_wall[4] = 311.412
+DischargeLinewall.Wall_ext.phi[3] = -71.0283
+DischargeLinewall.T_wall[3] = 311.59
+DischargeLinewall.Wall_ext.phi[2] = -73.4854
+DischargeLinewall.T_wall[2] = 313.72
+DischargeLinewall.Wall_ext.phi[1] = -73.474
+DischargeLinewall.T_wall[1] = 313.813
+DischargeTubeWall.Wall_ext.phi[10] = -157.56
+DischargeTubeWall.T_wall[10] = 325.315
+DischargeTubeWall.Wall_ext.phi[9] = -175.698
+DischargeTubeWall.T_wall[9] = 325.671
+DischargeTubeWall.Wall_ext.phi[8] = -185.742
+DischargeTubeWall.T_wall[8] = 325.865
+DischargeTubeWall.Wall_ext.phi[7] = -196.346
+DischargeTubeWall.T_wall[7] = 326.049
+DischargeTubeWall.Wall_ext.phi[6] = -207.466
+DischargeTubeWall.T_wall[6] = 326.237
+DischargeTubeWall.Wall_ext.phi[5] = -219.176
+DischargeTubeWall.T_wall[5] = 326.431
+DischargeTubeWall.Wall_ext.phi[4] = -231.431
+DischargeTubeWall.T_wall[4] = 326.631
+DischargeTubeWall.Wall_ext.phi[3] = -244.179
+DischargeTubeWall.T_wall[3] = 326.832
+DischargeTubeWall.Wall_ext.phi[2] = -258.324
+DischargeTubeWall.T_wall[2] = 327.06
+DischargeTubeWall.Wall_ext.phi[1] = -258.258
+DischargeTubeWall.T_wall[1] = 327.156
+DischargeTube.Cells[1].h = 648978
+DischargeTube.Summary.hnode[1] = 698619
+DischargeTube.Cells[1].OutFlow.h_outflow = 657440
+DischargeTube.Cells[2].h = 647853
+DischargeTube.Cells[2].OutFlow.h_outflow = 655545
+DischargeTube.Cells[3].h = 646427
+DischargeTube.Cells[3].OutFlow.h_outflow = 653641
+DischargeTube.Cells[4].h = 645163
+DischargeTube.Cells[4].OutFlow.h_outflow = 651906
+DischargeTube.Cells[5].h = 643892
+DischargeTube.Cells[5].OutFlow.h_outflow = 650165
+DischargeTube.Cells[6].h = 642638
+DischargeTube.Cells[6].OutFlow.h_outflow = 648432
+DischargeTube.Cells[7].h = 641402
+DischargeTube.Cells[7].OutFlow.h_outflow = 646706
+DischargeTube.Cells[8].h = 640153
+DischargeTube.Cells[8].OutFlow.h_outflow = 644931
+DischargeTube.Cells[9].h = 638757
+DischargeTube.Cells[9].OutFlow.h_outflow = 642865
+DischargeTube.Cells[10].h = 635862
+DischargeLine.Cells[1].h = 614861
+DischargeLine.Summary.hnode[1] = 637739
+DischargeLine.Cells[1].OutFlow.h_outflow = 619674
+DischargeLine.Cells[2].h = 614606
+DischargeLine.Cells[2].OutFlow.h_outflow = 618698
+DischargeLine.Cells[3].h = 612987
+DischargeLine.Cells[3].OutFlow.h_outflow = 618154
+DischargeLine.Cells[4].h = 612738
+DischargeLine.Cells[4].OutFlow.h_outflow = 617692
+DischargeLine.Cells[5].h = 612650
+DischargeLine.Cells[5].OutFlow.h_outflow = 617225
+DischargeLine.Cells[6].h = 613991
+DischargeLine.Cells[6].OutFlow.h_outflow = 616763
+DischargeLine.Cells[7].h = 612375
+DischargeLine.Cells[7].OutFlow.h_outflow = 616308
+DischargeLine.Cells[8].h = 614115
+DischargeLine.Cells[8].OutFlow.h_outflow = 615846
+DischargeLine.Cells[9].h = 613851
+DischargeLine.Cells[9].OutFlow.h_outflow = 614943
+DischargeLine.Cells[10].h = 611764
+Condenser.Cells[1].InFlow.h_outflow = 615943
+Condenser.Cells[1].h = 613437
+Condenser.Cells[1].OutFlow.h_outflow = 615851
+CondenserWall.Wall_ext.phi[3] = -4.19752
+CondenserWall.T_wall[3] = 305.413
+CondenserWall.Wall_ext.phi[4] = -4.67567
+CondenserWall.T_wall[4] = 305.443
+CondenserWall.Wall_ext.phi[5] = -4.58077
+CondenserWall.T_wall[5] = 305.437
+CondenserWall.Wall_ext.phi[6] = -4.33653
+CondenserWall.T_wall[6] = 305.422
+CondenserWall.Wall_ext.phi[7] = -4.50959
+CondenserWall.T_wall[7] = 305.433
+CondenserWall.Wall_ext.phi[8] = -4.64407
+CondenserWall.T_wall[8] = 305.441
+CondenserWall.Wall_ext.phi[9] = -4.71918
+CondenserWall.T_wall[9] = 305.446
+CondenserWall.Wall_ext.phi[10] = -4.71685
+CondenserWall.T_wall[10] = 305.446
+CondenserWall.Wall_ext.phi[11] = -4.66674
+CondenserWall.T_wall[11] = 305.443
+CondenserWall.Wall_ext.phi[12] = -4.5955
+CondenserWall.T_wall[12] = 305.438
+CondenserWall.Wall_ext.phi[13] = -4.52045
+CondenserWall.T_wall[13] = 305.433
+CondenserWall.Wall_ext.phi[14] = -4.44866
+CondenserWall.T_wall[14] = 305.429
+CondenserWall.Wall_ext.phi[15] = -4.38143
+CondenserWall.T_wall[15] = 305.425
+CondenserWall.Wall_ext.phi[16] = -4.31883
+CondenserWall.T_wall[16] = 305.421
+CondenserWall.Wall_ext.phi[17] = -4.25969
+CondenserWall.T_wall[17] = 305.417
+CondenserWall.Wall_ext.phi[18] = -4.20293
+CondenserWall.T_wall[18] = 305.414
+CondenserWall.Wall_ext.phi[19] = -4.14724
+CondenserWall.T_wall[19] = 305.41
+CondenserWall.Wall_ext.phi[20] = -4.09138
+CondenserWall.T_wall[20] = 305.407
+CondenserWall.Wall_ext.phi[21] = -4.03428
+CondenserWall.T_wall[21] = 305.403
+CondenserWall.Wall_ext.phi[22] = -3.97497
+CondenserWall.T_wall[22] = 305.399
+CondenserWall.Wall_ext.phi[23] = -3.91256
+CondenserWall.T_wall[23] = 305.396
+CondenserWall.Wall_ext.phi[24] = -3.84575
+CondenserWall.T_wall[24] = 305.391
+CondenserWall.Wall_ext.phi[25] = -3.77403
+CondenserWall.T_wall[25] = 305.387
+Condenser.Cells[25].M_dot_ex = -5.80448E-008
+Condenser.Cells[25].OutFlow.h_outflow = 354105
+Condenser.Cells[25].h = 355726
+Condenser.Cells[24].M_dot_ex = 3.3619E-006
+Condenser.Cells[24].OutFlow.h_outflow = 365640
+Condenser.Cells[24].h = 367257
+Condenser.Cells[23].M_dot_ex = -2.50226E-008
+Condenser.Cells[23].OutFlow.h_outflow = 377178
+Condenser.Cells[23].h = 378793
+Condenser.Cells[22].M_dot_ex = 2.34547E-007
+Condenser.Cells[22].OutFlow.h_outflow = 388784
+Condenser.Cells[22].h = 390396
+Condenser.Cells[21].M_dot_ex = 2.86017E-007
+Condenser.Cells[21].OutFlow.h_outflow = 400461
+Condenser.Cells[21].h = 402072
+Condenser.Cells[20].M_dot_ex = 2.96507E-007
+Condenser.Cells[20].OutFlow.h_outflow = 412214
+Condenser.Cells[20].h = 413822
+Condenser.Cells[19].M_dot_ex = 2.94611E-007
+Condenser.Cells[19].OutFlow.h_outflow = 424057
+Condenser.Cells[19].h = 425664
+Condenser.Cells[18].M_dot_ex = 2.88485E-007
+Condenser.Cells[18].OutFlow.h_outflow = 436027
+Condenser.Cells[18].h = 437632
+Condenser.Cells[17].M_dot_ex = 2.81142E-007
+Condenser.Cells[17].OutFlow.h_outflow = 448182
+Condenser.Cells[17].h = 449785
+Condenser.Cells[16].M_dot_ex = 2.73896E-007
+Condenser.Cells[16].OutFlow.h_outflow = 460599
+Condenser.Cells[16].h = 462201
+Condenser.Cells[15].M_dot_ex = 2.67931E-007
+Condenser.Cells[15].OutFlow.h_outflow = 473369
+Condenser.Cells[15].h = 474971
+Condenser.Cells[14].M_dot_ex = 2.63722E-007
+Condenser.Cells[14].OutFlow.h_outflow = 486620
+Condenser.Cells[14].h = 488220
+Condenser.Cells[13].M_dot_ex = 2.61615E-007
+Condenser.Cells[13].OutFlow.h_outflow = 500489
+Condenser.Cells[13].h = 502088
+Condenser.Cells[12].M_dot_ex = 2.63095E-007
+Condenser.Cells[12].OutFlow.h_outflow = 515100
+Condenser.Cells[12].h = 516700
+Condenser.Cells[11].M_dot_ex = 2.62699E-007
+Condenser.Cells[11].OutFlow.h_outflow = 530570
+Condenser.Cells[11].h = 532172
+Condenser.Cells[10].M_dot_ex = 2.49551E-007
+Condenser.Cells[10].OutFlow.h_outflow = 546712
+Condenser.Cells[10].h = 548317
+Condenser.Cells[9].M_dot_ex = 2.31018E-007
+Condenser.Cells[9].OutFlow.h_outflow = 562516
+Condenser.Cells[9].h = 564128
+Condenser.Cells[8].M_dot_ex = 2.9235E-007
+Condenser.Cells[8].OutFlow.h_outflow = 575858
+Condenser.Cells[8].h = 577477
+Condenser.Cells[7].M_dot_ex = -1.94345E-006
+Condenser.Cells[7].OutFlow.h_outflow = 584266
+Condenser.Cells[7].h = 585898
+Condenser.Cells[6].M_dot_ex = -4.75163E-007
+Condenser.Cells[6].OutFlow.h_outflow = 587392
+Condenser.Cells[6].h = 589013
+Condenser.Cells[5].M_dot_ex = 3.29101E-007
+Condenser.Cells[5].OutFlow.h_outflow = 584463
+Condenser.Cells[5].h = 586078
+Condenser.Cells[4].M_dot_ex = -1.99797E-006
+Condenser.Cells[4].OutFlow.h_outflow = 587508
+Condenser.Cells[4].h = 589353
+Condenser.Cells[3].M_dot_ex = -9.52881E-007
+Condenser.Cells[3].OutFlow.h_outflow = 596600
+Condenser.Cells[3].h = 597998
+Condenser.Cells[2].M_dot_ex = 2.73025E-007
+Condenser.Cells[2].OutFlow.h_outflow = 608117
+Condenser.Cells[2].h = 609007
+Condenser.Cells[1].M_dot_ex = 4.15984E-006
+Condenser.Cells[1].der(p) = -253.135
+EvaporatorExternalResistance.port1.phi[1] = 6.93726
+RefrigeratedCompartment.Wall_ext.phi[1] = 6.94607
+RefrigeratedCompartment.T_wall[1] = 290.094
+EvaporatorWall.Wall_ext.phi[1] = 6.93452
+EvaporatorWall.T_wall[1] = 257.108
+EvaporatorExternalResistance.port1.phi[2] = 6.75653
+RefrigeratedCompartment.Wall_ext.phi[2] = 6.7605
+RefrigeratedCompartment.T_wall[2] = 298.396
+EvaporatorWall.Wall_ext.phi[2] = 6.75502
+EvaporatorWall.T_wall[2] = 294.422
+EvaporatorExternalResistance.port1.phi[3] = 13.3138
+RefrigeratedCompartment.Wall_ext.phi[3] = 13.322
+RefrigeratedCompartment.T_wall[3] = 293.098
+EvaporatorWall.Wall_ext.phi[3] = 13.3093
+EvaporatorWall.T_wall[3] = 289.026
+EvaporatorExternalResistance.port1.phi[4] = 10.4253
+RefrigeratedCompartment.Wall_ext.phi[4] = 10.4281
+RefrigeratedCompartment.T_wall[4] = 295.563
+EvaporatorWall.Wall_ext.phi[4] = 10.4242
+EvaporatorWall.T_wall[4] = 291.909
+EvaporatorExternalResistance.port1.phi[5] = 7.80325
+RefrigeratedCompartment.Wall_ext.phi[5] = 7.80539
+RefrigeratedCompartment.T_wall[5] = 297.755
+EvaporatorWall.Wall_ext.phi[5] = 7.80249
+EvaporatorWall.T_wall[5] = 294.358
+EvaporatorExternalResistance.port1.phi[6] = 5.63106
+RefrigeratedCompartment.Wall_ext.phi[6] = 5.63259
+RefrigeratedCompartment.T_wall[6] = 299.574
+EvaporatorWall.Wall_ext.phi[6] = 5.6306
+EvaporatorWall.T_wall[6] = 296.402
+EvaporatorExternalResistance.port1.phi[7] = 4.33446
+RefrigeratedCompartment.Wall_ext.phi[7] = 4.33571
+RefrigeratedCompartment.T_wall[7] = 300.662
+EvaporatorWall.Wall_ext.phi[7] = 4.33413
+EvaporatorWall.T_wall[7] = 297.63
+EvaporatorExternalResistance.port1.phi[8] = 3.5951
+RefrigeratedCompartment.Wall_ext.phi[8] = 3.59616
+RefrigeratedCompartment.T_wall[8] = 301.281
+EvaporatorWall.Wall_ext.phi[8] = 3.59484
+EvaporatorWall.T_wall[8] = 298.326
+EvaporatorExternalResistance.port1.phi[9] = 2.90775
+RefrigeratedCompartment.Wall_ext.phi[9] = 2.90866
+RefrigeratedCompartment.T_wall[9] = 301.857
+EvaporatorWall.Wall_ext.phi[9] = 2.90755
+EvaporatorWall.T_wall[9] = 298.973
+EvaporatorExternalResistance.port1.phi[10] = 2.4786
+RefrigeratedCompartment.Wall_ext.phi[10] = 2.47939
+RefrigeratedCompartment.T_wall[10] = 302.217
+EvaporatorWall.Wall_ext.phi[10] = 2.47844
+EvaporatorWall.T_wall[10] = 299.378
+EvaporatorExternalResistance.port1.phi[11] = 2.0797
+RefrigeratedCompartment.Wall_ext.phi[11] = 2.08039
+RefrigeratedCompartment.T_wall[11] = 302.551
+EvaporatorWall.Wall_ext.phi[11] = 2.07957
+EvaporatorWall.T_wall[11] = 299.756
+EvaporatorExternalResistance.port1.phi[12] = 1.72676
+RefrigeratedCompartment.Wall_ext.phi[12] = 1.72736
+RefrigeratedCompartment.T_wall[12] = 302.848
+EvaporatorWall.Wall_ext.phi[12] = 1.72665
+EvaporatorWall.T_wall[12] = 300.091
+EvaporatorExternalResistance.port1.phi[13] = 1.42984
+RefrigeratedCompartment.Wall_ext.phi[13] = 1.43038
+RefrigeratedCompartment.T_wall[13] = 303.097
+EvaporatorWall.Wall_ext.phi[13] = 1.42976
+EvaporatorWall.T_wall[13] = 300.374
+EvaporatorExternalResistance.port1.phi[14] = 1.22832
+RefrigeratedCompartment.Wall_ext.phi[14] = 1.22879
+RefrigeratedCompartment.T_wall[14] = 303.267
+EvaporatorWall.Wall_ext.phi[14] = 1.22824
+EvaporatorWall.T_wall[14] = 300.568
+EvaporatorExternalResistance.port1.phi[15] = 0.94883
+RefrigeratedCompartment.Wall_ext.phi[15] = 0.949243
+RefrigeratedCompartment.T_wall[15] = 303.502
+EvaporatorWall.Wall_ext.phi[15] = 0.94877
+EvaporatorWall.T_wall[15] = 300.835
+EvaporatorExternalResistance.port1.phi[16] = 0.71654
+RefrigeratedCompartment.Wall_ext.phi[16] = 0.7169
+RefrigeratedCompartment.T_wall[16] = 303.698
+EvaporatorWall.Wall_ext.phi[16] = 0.716492
+EvaporatorWall.T_wall[16] = 301.058
+EvaporatorExternalResistance.port1.phi[17] = 0.468421
+RefrigeratedCompartment.Wall_ext.phi[17] = 0.468731
+RefrigeratedCompartment.T_wall[17] = 303.907
+EvaporatorWall.Wall_ext.phi[17] = 0.468383
+EvaporatorWall.T_wall[17] = 301.297
+EvaporatorExternalResistance.port1.phi[18] = 0.247012
+RefrigeratedCompartment.Wall_ext.phi[18] = 0.247273
+RefrigeratedCompartment.T_wall[18] = 304.094
+EvaporatorWall.Wall_ext.phi[18] = 0.246982
+EvaporatorWall.T_wall[18] = 301.511
+EvaporatorExternalResistance.port1.phi[19] = 0.113267
+RefrigeratedCompartment.Wall_ext.phi[19] = 0.113538
+RefrigeratedCompartment.T_wall[19] = 304.211
+EvaporatorWall.Wall_ext.phi[19] = 0.113237
+EvaporatorWall.T_wall[19] = 301.657
+EvaporatorExternalResistance.port1.phi[20] = 0.383605
+RefrigeratedCompartment.Wall_ext.phi[20] = 0.38393
+RefrigeratedCompartment.T_wall[20] = 303.971
+EvaporatorWall.Wall_ext.phi[20] = 0.383567
+EvaporatorWall.T_wall[20] = 301.349
+SuctionLineWall.Wall_ext.phi[1] = -9.28897
+SuctionLineWall.T_wall[1] = 305.283
+SuctionLine.Cells[1].InFlow.h_outflow = 561191
+SuctionLineWall.Wall_ext.phi[2] = -1.07785
+SuctionLineWall.T_wall[2] = 305.165
+SuctionLineWall.Wall_ext.phi[3] = -1.06622
+SuctionLineWall.T_wall[3] = 305.165
+SuctionLineWall.Wall_ext.phi[4] = -0.881343
+SuctionLineWall.T_wall[4] = 305.163
+SuctionLineWall.Wall_ext.phi[5] = -0.831936
+SuctionLineWall.T_wall[5] = 305.162
+SuctionLineWall.Wall_ext.phi[6] = -0.86187
+SuctionLineWall.T_wall[6] = 305.162
+SuctionLineWall.Wall_ext.phi[7] = -0.61783
+SuctionLineWall.T_wall[7] = 305.159
+SuctionLineWall.Wall_ext.phi[8] = -0.855049
+SuctionLineWall.T_wall[8] = 305.162
+SuctionLineWall.Wall_ext.phi[9] = -0.709343
+SuctionLineWall.T_wall[9] = 305.16
+SuctionLineWall.Wall_ext.phi[10] = -0.931589
+SuctionLineWall.T_wall[10] = 305.163
+SuctionLineWall.Wall_ext.phi[11] = -1.2034
+SuctionLineWall.T_wall[11] = 305.167
+SuctionLineWall.Wall_ext.phi[12] = -1.35304
+SuctionLineWall.T_wall[12] = 305.169
+SuctionLineWall.Wall_ext.phi[13] = -1.55323
+SuctionLineWall.T_wall[13] = 305.172
+SuctionLineWall.Wall_ext.phi[14] = -1.7454
+SuctionLineWall.T_wall[14] = 305.175
+SuctionLineWall.Wall_ext.phi[15] = -1.94632
+SuctionLineWall.T_wall[15] = 305.178
+SuctionLineWall.Wall_ext.phi[16] = -1.82735
+SuctionLineWall.T_wall[16] = 305.176
+SuctionLineWall.Wall_ext.phi[17] = -1.78319
+SuctionLineWall.T_wall[17] = 305.175
+SuctionLineWall.Wall_ext.phi[18] = -1.58968
+SuctionLineWall.T_wall[18] = 305.172
+SuctionLineWall.Wall_ext.phi[19] = -1.96994
+SuctionLineWall.T_wall[19] = 305.151
+SuctionLineWall.Wall_ext.phi[20] = 0.486685
+SuctionLineWall.T_wall[20] = 305.017
+Evaporator.Cells[1].der(p) = 681.737
+compressor.h_ex = 701747
+compressor.InFlow.h_outflow = 604781
+SuctionLine.Summary.Mdot[21] = 0.000447961
+SuctionLine.Cells[20].h = 608077
+SuctionLine.Cells[19].M_dot_ex = 0.00142557
+SuctionLine.Cells[19].OutFlow.h_outflow = 607636
+SuctionLine.Cells[19].h = 607742
+SuctionLine.Cells[18].M_dot_ex = 0.000283454
+SuctionLine.Cells[18].OutFlow.h_outflow = 606621
+SuctionLine.Cells[18].h = 606601
+SuctionLine.Cells[17].M_dot_ex = 2.28498E-005
+SuctionLine.Cells[17].OutFlow.h_outflow = 605913
+SuctionLine.Cells[17].h = 605883
+SuctionLine.Cells[16].M_dot_ex = 9.20304E-007
+SuctionLine.Cells[16].OutFlow.h_outflow = 605059
+SuctionLine.Cells[16].h = 604999
+SuctionLine.Cells[15].M_dot_ex = -2.98654E-006
+SuctionLine.Cells[15].OutFlow.h_outflow = 604211
+SuctionLine.Cells[15].h = 603246
+SuctionLine.Cells[14].M_dot_ex = -1.30616E-006
+SuctionLine.Cells[14].OutFlow.h_outflow = 604464
+SuctionLine.Cells[14].h = 602867
+SuctionLine.Cells[13].M_dot_ex = 1.05254E-006
+SuctionLine.Cells[13].OutFlow.h_outflow = 603837
+SuctionLine.Cells[13].h = 602137
+SuctionLine.Cells[12].M_dot_ex = 1.33616E-006
+SuctionLine.Cells[12].OutFlow.h_outflow = 602939
+SuctionLine.Cells[12].h = 601135
+SuctionLine.Cells[11].M_dot_ex = 1.2861E-006
+SuctionLine.Cells[11].OutFlow.h_outflow = 601785
+SuctionLine.Cells[11].h = 599876
+SuctionLine.Cells[10].M_dot_ex = -1.08967E-006
+SuctionLine.Cells[10].OutFlow.h_outflow = 601108
+SuctionLine.Cells[10].h = 599294
+SuctionLine.Cells[9].M_dot_ex = -1.86086E-006
+SuctionLine.Cells[9].OutFlow.h_outflow = 601409
+SuctionLine.Cells[9].h = 604233
+SuctionLine.Cells[8].M_dot_ex = -1.4882E-006
+SuctionLine.Cells[8].OutFlow.h_outflow = 601773
+SuctionLine.Cells[8].h = 601158
+SuctionLine.Cells[7].M_dot_ex = 5.23173E-006
+SuctionLine.Cells[7].OutFlow.h_outflow = 598507
+SuctionLine.Cells[7].h = 596162
+SuctionLine.Cells[6].M_dot_ex = -2.91207E-007
+SuctionLine.Cells[6].OutFlow.h_outflow = 594225
+SuctionLine.Cells[6].h = 596626
+SuctionLine.Cells[5].M_dot_ex = 2.74172E-007
+SuctionLine.Cells[5].OutFlow.h_outflow = 597183
+SuctionLine.Cells[5].h = 599656
+SuctionLine.Cells[4].M_dot_ex = -2.8828E-006
+SuctionLine.Cells[4].OutFlow.h_outflow = 597889
+SuctionLine.Cells[4].h = 595171
+SuctionLine.Cells[3].M_dot_ex = -9.52534E-008
+SuctionLine.Cells[3].OutFlow.h_outflow = 594303
+SuctionLine.Cells[3].h = 594341
+SuctionLine.Cells[2].M_dot_ex = 4.36252E-006
+SuctionLine.Cells[2].OutFlow.h_outflow = 594758
+SuctionLine.Cells[2].h = 595399
+SuctionLine.Cells[1].M_dot_ex = 1.18749E-006
+SuctionLine.Cells[1].OutFlow.h_outflow = 586941
+SuctionLine.Cells[1].h = 583624
+Evaporator.Summary.Mdot[21] = -2.69859E-006
+Evaporator.Cells[20].h = 542557
+Evaporator.Cells[19].M_dot_ex = -2.47873E-006
+Evaporator.Cells[19].OutFlow.h_outflow = 532840
+Evaporator.Cells[19].h = 526848
+Evaporator.Cells[18].M_dot_ex = -5.55832E-007
+Evaporator.Cells[18].OutFlow.h_outflow = 523955
+Evaporator.Cells[18].h = 527996
+Evaporator.Cells[17].M_dot_ex = -3.99948E-006
+Evaporator.Cells[17].OutFlow.h_outflow = 518199
+Evaporator.Cells[17].h = 517862
+Evaporator.Cells[16].M_dot_ex = -1.49387E-006
+Evaporator.Cells[16].OutFlow.h_outflow = 516186
+Evaporator.Cells[16].h = 540558
+Evaporator.Cells[15].M_dot_ex = 9.03026E-007
+Evaporator.Cells[15].OutFlow.h_outflow = 543128
+Evaporator.Cells[15].h = 549365
+Evaporator.Cells[14].M_dot_ex = -2.05591E-006
+Evaporator.Cells[14].OutFlow.h_outflow = 549780
+Evaporator.Cells[14].h = 602478
+Evaporator.Cells[13].M_dot_ex = -3.05656E-005
+Evaporator.Cells[13].OutFlow.h_outflow = 598377
+Evaporator.Cells[13].h = 541007
+Evaporator.Cells[12].M_dot_ex = -1.51509E-006
+Evaporator.Cells[12].OutFlow.h_outflow = 541407
+Evaporator.Cells[12].h = 511290
+Evaporator.Cells[11].M_dot_ex = -1.48493E-006
+Evaporator.Cells[11].OutFlow.h_outflow = 511091
+Evaporator.Cells[11].h = 540871
+Evaporator.Cells[10].M_dot_ex = -1.93243E-006
+Evaporator.Cells[10].OutFlow.h_outflow = 538499
+Evaporator.Cells[10].h = 589736
+Evaporator.Cells[9].M_dot_ex = -2.21381E-007
+Evaporator.Cells[9].OutFlow.h_outflow = 583985
+Evaporator.Cells[9].h = 474204
+Evaporator.Cells[8].M_dot_ex = -1.07671E-006
+Evaporator.Cells[8].OutFlow.h_outflow = 484173
+Evaporator.Cells[8].h = 528360
+Evaporator.Cells[7].M_dot_ex = -7.66495E-007
+Evaporator.Cells[7].OutFlow.h_outflow = 522190
+Evaporator.Cells[7].h = 521566
+Evaporator.Cells[6].M_dot_ex = -5.59897E-007
+Evaporator.Cells[6].OutFlow.h_outflow = 520845
+Evaporator.Cells[6].h = 518926
+Evaporator.Cells[5].M_dot_ex = 8.73393E-007
+Evaporator.Cells[5].OutFlow.h_outflow = 518366
+Evaporator.Cells[5].h = 514766
+Evaporator.Cells[4].M_dot_ex = -1.7484E-007
+Evaporator.Cells[4].OutFlow.h_outflow = 513821
+Evaporator.Cells[4].h = 509793
+Evaporator.Cells[3].M_dot_ex = 9.02812E-007
+Evaporator.Cells[3].OutFlow.h_outflow = 525884
+Evaporator.Cells[3].h = 531173
+Evaporator.Cells[2].M_dot_ex = 1.14313E-005
+Evaporator.Cells[2].OutFlow.h_outflow = 523761
+Evaporator.Cells[2].h = 521036
+Evaporator.Cells[1].M_dot_ex = 0.000266241
+Evaporator.Cells[1].OutFlow.h_outflow = 508727
+Evaporator.Cells[1].h = 509727
+valve.OutFlow.h_outflow = 302396
+Condenser.Cells[30].h = 301538
+Condenser.Cells[29].M_dot_ex = 2.28093E-005
+Condenser.Cells[29].OutFlow.h_outflow = 308045
+Condenser.Cells[29].h = 308708
+Condenser.Cells[28].M_dot_ex = 6.5849E-007
+Condenser.Cells[28].OutFlow.h_outflow = 319458
+Condenser.Cells[28].h = 321142
+Condenser.Cells[27].M_dot_ex = 2.02678E-007
+Condenser.Cells[27].OutFlow.h_outflow = 331007
+Condenser.Cells[27].h = 332629
+Condenser.Cells[26].M_dot_ex = -1.57077E-007
+Condenser.Cells[26].OutFlow.h_outflow = 342539
+Condenser.Cells[26].h = 344160
+CondenserWall.Wall_ext.phi[26] = -3.69446
+   Last values of residual vector:
+{ 0.000234688, -0.0229281, 0.000228353, -0.0407499, 0.000259726,
+  -0.204009, 0.000191637, -2.81689, 0.000344035, -0.927507,
+  0.00069809, -38.6792, 0.00962477, -2.42094, 0.110837,
+  -1.39209, 0.164864, -1.48255, 0.151119, -1.96423,
+  0.0909583, -1.38201, 0.145036, -1.8841, 0.0858533,
+  -1.83256, 0.0829913, -1.77028, 0.080354, -1.21771,
+  0.144576, -1.22868, 0.147618, -0.198837, 0.0488458,
+  -0.297818, 0.0671168, -0.3414, 0.0767186, -0.376824,
+  0.0846377, -0.410547, 0.0922294, -0.443763, 0.0997487,
+  -0.476569, 0.107195, -0.508076, 0.114215, -0.543826,
+  0.12253, -0.595839, 0.134024, 8461.96, -3127.88,
+  -17.5126, 7691.76, 0.0334432, 7214.52, -0.0247993,
+  6742.44, 0.00211044, 6273.46, -0.0485955, 5794.04,
+  -0.0941625, 5304.75, -0.139064, 4777.36, -0.210694,
+  4107.95, -0.397309, -2.73206, 4812.81, 1877.02,
+  -6.73206, 4092.67, 0.912245, 5167.13, 1.65348,
+  4953.81, 1.74441, 4574.85, 1.78601, 2772.08,
+  1.2814, 3933.62, 1.85941, 1731.18, 1.36826,
+  1092.47, 1.07485, 1.03398, 4178.74, 37.9678,
+  2414.27, -0.0561304, 6.85784E-005, -0.251844, 0.000230549,
+  -0.513273, 0.000220057, -0.0730561, 0.00021973, -0.117286,
+  0.000220539, -0.499419, 0.000221312, -0.0546707, 0.000222163,
+  -0.0332697, 0.000222945, -0.0406318, 0.000223706, -0.046351,
+  0.00022445, -0.0476536, 0.000225191, -0.0482494, 0.00022593,
+  -0.0500289, 0.000226665, -0.0524687, 0.000227396, -0.0554607,
+  0.000228122, -0.0588506, 0.000228842, -0.0622454, 0.000229554,
+  -0.0652154, 0.000230257, -0.0667527, 0.000230951, -0.0640757,
+  0.000231632, -0.046967, 0.000232298, 0.0395943, 0.000232937,
+  -0.829093, 0.000233549, 0.853162, 9945.11, -3.77844E-006,
+  0.0133431, -1617.35, 3.08156E-006, 0.104037, 9921.13,
+  -5.10353E-007, 0.121123, -1612.23, -2.83405E-007, 0.124475,
+  -1610.31, -2.26337E-007, 0.123766, -1608.54, -2.00846E-007,
+  0.12166, -1606.84, -1.85857E-007, 0.11913, -1605.24,
+  -1.75682E-007, 0.116604, -1603.73, -1.6825E-007, 0.114477,
+  -1602.33, -1.63161E-007, 0.112902, -1601.09, -1.59506E-007,
+  0.111996, -1600.08, -1.57035E-007, 0.112262, -1599.5,
+  -1.56818E-007, 0.111858, -1599.74, -1.52067E-007, 0.107218,
+  -1601.31, -1.37732E-007, 0.100972, -1605.12, -1.33321E-007,
+  0.122287, -1611.79, -2.15117E-007, 0.569242, -1619.24,
+  2.10131E-006, 0.188745, 6789.3, -1.60869E-006, 0.141027,
+  1493.57, -9.72214E-007, 0.582093, -1615.01, 2.1869E-006,
+  0.326299, 1430, -1.1889E-006, 0.118328, 7246.92,
+  -1.40188E-006, 1.00479, -890.712, -4.10652E-006, -0.000443932,
+  -0.000401431, -0.506569, 40.3054, 0.000124572, -14.7093,
+  -0.000180598, -0.0612119, 219.247, 6.89835E-005, -1.5025,
+  -0.000374565, -0.0519337, 12.4589, 0.000205155, -1.24821,
+  -0.000127954, -0.0490227, 1.72213, 4.94607E-005, -1.18969,
+  -9.77676E-005, -0.0486908, 0.270232, 3.43377E-005, -1.1916,
+  -6.97994E-005, -0.0482147, 2.10393, 2.10957E-005, -1.18817,
+  -5.6941E-005, -0.0478323, 1.49306, 1.53096E-005, -1.18362,
+  -4.82379E-005, -0.0476707, 1.83677, 1.17699E-005, -1.18241,
+  -4.14372E-005, -0.0475198, 2.80707, 9.21603E-006, -1.18123,
+  -3.60031E-005, -0.0474013, 0.00436425, 7.38472E-006, -1.1799,
+  -3.14832E-005, -0.0472847, 3.45755, 5.97729E-006, -1.1785,
+  -2.76549E-005, -0.0471711, 3.80621, 4.87784E-006, -1.17699,
+  -2.43516E-005, -0.0470606, 2.8995, 4.00426E-006, -1.17535,
+  -2.14608E-005, -0.046957, 0.534047, 3.30816E-006, -1.17334,
+  -1.88145E-005, -0.0468414, 3.25509, 2.70563E-006, -1.17166,
+  -1.63776E-005, -0.046725, 1.97706, 2.19566E-006, -1.16962,
+  -1.40796E-005, -0.0466005, 3.97325, 1.74999E-006, -1.16743,
+  -1.19253E-005, -0.0464766, 8.05324, 1.36675E-006, -1.16515,
+  -1.23549E-005, -0.0461723, 1.69121, 1.34003E-006, -1.15803,
+  -1.48013E-005, -0.0469618, 4.37245, 1.72524E-006, -1.17676,
+  0.0783506, -1.80476E-005, -22433.1, 0.0202015, -5.08702E-006,
+  0.0571975, -1.23974E-005, 0.00401093, -4.43966E-006, 0.0287277,
+  -5.06877E-006, 0.00673838, -4.02709E-006, 0.00674528, -3.98626E-006,
+  0.0397984, -4.09564E-006, 0.0110415, -3.6608E-006, 0.0214409,
+  -3.37744E-006, 0.0143962, -3.03967E-006, 0.0148666, -2.62525E-006,
+  0.0143495, -2.11415E-006, 0.0119069, -1.57363E-006, 0.0134672,
+  -1.2019E-006, 0.0185379, -1.4073E-006, 0.00826874, -1.59744E-006,
+  0.0615483, -4.58078E-005, 0.3377, -0.00329754, 1.03093,
+  -0.0153344, 1.28958E-005, -0.000136905, -3295.13, -0.4049,
+  -0.000977571, -0.16931, -105.885, 0.00114215, -0.0389345,
+  20.2655, 0.000260642, -0.00533947, 30.0323, 2.19677E-005,
+  -0.0169205, 60.7128, 3.94513E-006, -0.0145825, -787.441,
+  -1.64194E-006, -0.0135947, 1217.94, -2.32024E-006, -0.0125456,
+  1700.36, -2.45093E-007, -0.0125545, 1803.71, 8.86608E-008,
+  -0.0114611, 1909.73, 2.41448E-006, -0.0234095, 1232.31,
+  8.09953E-007, -0.00616327, 2114.21, -3.3431E-007, -0.0269663,
+  -2460.18, -6.68132E-006, 0.00498552, 2344.88, 5.56196E-006,
+  -0.00630578, -1936.34, -5.26392E-007, -0.0295711, -2472.69,
+  3.1957E-006, -0.0119277, -1766.63, -2.74844E-006, -0.0587725,
+  -867.73, -4.41859E-006, -0.0126914, -640.531, 3.21413E-006,
+  -0.120442, 3317.08, 3.92623E-006, -4.44515, -8.29192E-008,
+  -1.71616, -9717.16, -1.77948E-006, -8.06719, -2892.15,
+  3.58656E-006, -4.00088, -9797.02, 1.19458E-005, -1.98055,
+  -1675.75, -2.25917E-006, -3.30888, -6237, 3.09333E-006,
+  -0.486592, 415.273, 2.86279E-005, -4.72311, -4101.89,
+  -2.89129E-005, -3.93543, 400.271, 1.12235E-005, -3.513,
+  -198.149, 5.85106E-007, -0.0231877, -2371.64, -1.58943E-006,
+  -2.96876, -5751.28, 9.87551E-006, -1.95788, 9968.85,
+  -1.67458E-007, -1.6959, -6169.62, -6.08205E-008, -2.36593,
+  -721.105, 2.09402E-005, -0.627433, 3600.43, 1.54695E-005,
+  -2.21713, -945.018, 1.06527E-005, -12.9901, -5288.87,
+  -1.0387E-005, -216.251, 2724.5, -0.000246373, 12.6302,
+  -999.886, 858.083, 3.09494, 0.000235339, 0.220743,
+  -662.39, 1.64038E-005, 0.0918044, -1684.63, -3.37329E-007,
+  0.0772909, -1622.53, -1.09221E-007, 0.0359162, 9909.23,
+  -4.61273E-007, 0.0204542, -5254.73 }
+ 
+Fixed point iterating to handle problem.
+The following error was detected at time: 0
+Invalid values for inputs p=599997 h=-310417 for fluid IsoButane
+The stack of functions is:
+ExternalMedia.Media.CoolPropMedium.setState_ph_Unique11
+ExternalMedia.Media.CoolPropMedium.setState_ph_Unique11(Condenser.Cells[1].p-Condenser.Cells[26].deltaP/2, Condenser.Cells[26].h, 0)
+Non-linear solver will attempt to handle this problem.
+
+ERROR: Failed to solve non-linear system using Newton solver.
+To get more information: Turn on Simulation/Setup/Debug/Nonlinear solver diagnostics/Details
+Solution to systems of equations not found at time = 0
+   Nonlinear system of equations number = 1
+   Infinity-norm of residue = 129753
+   Iteration is not making good progress.
+   Accumulated number of residue calculations: 15049
+   Last values of solution vector:
+CondenserWall.T_wall[26] = 306.799
+CondenserWall.Wall_ext.phi[27] = -12.5489
+CondenserWall.T_wall[27] = 305.932
+CondenserWall.Wall_ext.phi[28] = -0.962605
+CondenserWall.T_wall[28] = 305.212
+CondenserWall.Wall_ext.phi[29] = -459.28
+CondenserWall.T_wall[29] = 333.84
+CondenserWall.Wall_ext.phi[30] = -396.909
+CondenserWall.T_wall[30] = 329.93
+CondenserWall.Wall_ext.phi[2] = 211.679
+CondenserWall.T_wall[2] = 292.313
+CondenserWall.Wall_ext.phi[1] = -269.481
+CondenserWall.T_wall[1] = 321.885
+DischargeLinewall.Wall_ext.phi[10] = 31.9324
+DischargeLinewall.T_wall[10] = 311.08
+DischargeLinewall.Wall_ext.phi[9] = 218.872
+DischargeLinewall.T_wall[9] = 306.909
+DischargeLinewall.Wall_ext.phi[8] = 193.381
+DischargeLinewall.T_wall[8] = 307.468
+DischargeLinewall.Wall_ext.phi[7] = 167.03
+DischargeLinewall.T_wall[7] = 308.05
+DischargeLinewall.Wall_ext.phi[6] = 139.623
+DischargeLinewall.T_wall[6] = 308.658
+DischargeLinewall.Wall_ext.phi[5] = 112.074
+DischargeLinewall.T_wall[5] = 309.273
+DischargeLinewall.Wall_ext.phi[4] = 82.9988
+DischargeLinewall.T_wall[4] = 309.926
+DischargeLinewall.Wall_ext.phi[3] = 53.2669
+DischargeLinewall.T_wall[3] = 310.597
+DischargeLinewall.Wall_ext.phi[2] = 21.5109
+DischargeLinewall.T_wall[2] = 311.32
+DischargeLinewall.Wall_ext.phi[1] = -27.6219
+DischargeLinewall.T_wall[1] = 312.473
+DischargeTubeWall.Wall_ext.phi[10] = 411.274
+DischargeTubeWall.T_wall[10] = 320.656
+DischargeTubeWall.Wall_ext.phi[9] = 896.865
+DischargeTubeWall.T_wall[9] = 320.822
+DischargeTubeWall.Wall_ext.phi[8] = 804.477
+DischargeTubeWall.T_wall[8] = 320.792
+DischargeTubeWall.Wall_ext.phi[7] = 708.639
+DischargeTubeWall.T_wall[7] = 320.76
+DischargeTubeWall.Wall_ext.phi[6] = 609.666
+DischargeTubeWall.T_wall[6] = 320.726
+DischargeTubeWall.Wall_ext.phi[5] = 512.966
+DischargeTubeWall.T_wall[5] = 320.003
+DischargeTubeWall.Wall_ext.phi[4] = 363.926
+DischargeTubeWall.T_wall[4] = 319.65
+DischargeTubeWall.Wall_ext.phi[3] = 260.313
+DischargeTubeWall.T_wall[3] = 320.839
+DischargeTubeWall.Wall_ext.phi[2] = 145.838
+DischargeTubeWall.T_wall[2] = 322.235
+DischargeTubeWall.Wall_ext.phi[1] = -102.127
+DischargeTubeWall.T_wall[1] = 324.732
+DischargeTube.Cells[1].h = 634254
+DischargeTube.Summary.hnode[1] = 684497
+DischargeTube.Cells[1].OutFlow.h_outflow = 638148
+DischargeTube.Cells[2].h = 625740
+DischargeTube.Cells[2].OutFlow.h_outflow = 630826
+DischargeTube.Cells[3].h = 619221
+DischargeTube.Cells[3].OutFlow.h_outflow = 623533
+DischargeTube.Cells[4].h = 614103
+DischargeTube.Cells[4].OutFlow.h_outflow = 618069
+DischargeTube.Cells[5].h = 611572
+DischargeTube.Cells[5].OutFlow.h_outflow = 614997
+DischargeTube.Cells[6].h = 610736
+DischargeTube.Cells[6].OutFlow.h_outflow = 610746
+DischargeTube.Cells[7].h = 603667
+DischargeTube.Cells[7].OutFlow.h_outflow = 603796
+DischargeTube.Cells[8].h = 597516
+DischargeTube.Cells[8].OutFlow.h_outflow = 597860
+DischargeTube.Cells[9].h = 593309
+DischargeTube.Cells[9].OutFlow.h_outflow = 594452
+DischargeTube.Cells[10].h = 611119
+DischargeLine.Cells[1].h = 611199
+DischargeLine.Summary.hnode[1] = 611954
+DischargeLine.Cells[1].OutFlow.h_outflow = 611205
+DischargeLine.Cells[2].h = 606331
+DischargeLine.Cells[2].OutFlow.h_outflow = 606434
+DischargeLine.Cells[3].h = 599263
+DischargeLine.Cells[3].OutFlow.h_outflow = 599641
+DischargeLine.Cells[4].h = 594132
+DischargeLine.Cells[4].OutFlow.h_outflow = 594507
+DischargeLine.Cells[5].h = 588972
+DischargeLine.Cells[5].OutFlow.h_outflow = 589416
+DischargeLine.Cells[6].h = 583963
+DischargeLine.Cells[6].OutFlow.h_outflow = 584469
+DischargeLine.Cells[7].h = 579130
+DischargeLine.Cells[7].OutFlow.h_outflow = 579756
+DischargeLine.Cells[8].h = 575062
+DischargeLine.Cells[8].OutFlow.h_outflow = 575874
+DischargeLine.Cells[9].h = 571638
+DischargeLine.Cells[9].OutFlow.h_outflow = 572757
+DischargeLine.Cells[10].h = 587396
+Condenser.Cells[1].InFlow.h_outflow = 587718
+Condenser.Cells[1].h = 578968
+Condenser.Cells[1].OutFlow.h_outflow = 579515
+CondenserWall.Wall_ext.phi[3] = 36.9844
+CondenserWall.T_wall[3] = 302.837
+CondenserWall.Wall_ext.phi[4] = -12.7643
+CondenserWall.T_wall[4] = 305.947
+CondenserWall.Wall_ext.phi[5] = -29.5472
+CondenserWall.T_wall[5] = 306.993
+CondenserWall.Wall_ext.phi[6] = -23.7647
+CondenserWall.T_wall[6] = 306.631
+CondenserWall.Wall_ext.phi[7] = 48.3563
+CondenserWall.T_wall[7] = 302.126
+CondenserWall.Wall_ext.phi[8] = 21.2429
+CondenserWall.T_wall[8] = 303.82
+CondenserWall.Wall_ext.phi[9] = -0.505399
+CondenserWall.T_wall[9] = 305.177
+CondenserWall.Wall_ext.phi[10] = -44.2548
+CondenserWall.T_wall[10] = 307.911
+CondenserWall.Wall_ext.phi[11] = -64.6641
+CondenserWall.T_wall[11] = 309.184
+CondenserWall.Wall_ext.phi[12] = -81.913
+CondenserWall.T_wall[12] = 310.264
+CondenserWall.Wall_ext.phi[13] = -93.463
+CondenserWall.T_wall[13] = 310.99
+CondenserWall.Wall_ext.phi[14] = -99.386
+CondenserWall.T_wall[14] = 311.364
+CondenserWall.Wall_ext.phi[15] = -102.862
+CondenserWall.T_wall[15] = 311.583
+CondenserWall.Wall_ext.phi[16] = -103.684
+CondenserWall.T_wall[16] = 311.635
+CondenserWall.Wall_ext.phi[17] = -102.308
+CondenserWall.T_wall[17] = 311.547
+CondenserWall.Wall_ext.phi[18] = -99.0576
+CondenserWall.T_wall[18] = 311.342
+CondenserWall.Wall_ext.phi[19] = -94.1429
+CondenserWall.T_wall[19] = 311.032
+CondenserWall.Wall_ext.phi[20] = -87.7385
+CondenserWall.T_wall[20] = 310.63
+CondenserWall.Wall_ext.phi[21] = -79.9747
+CondenserWall.T_wall[21] = 310.143
+CondenserWall.Wall_ext.phi[22] = -70.9681
+CondenserWall.T_wall[22] = 309.579
+CondenserWall.Wall_ext.phi[23] = -60.8329
+CondenserWall.T_wall[23] = 308.943
+CondenserWall.Wall_ext.phi[24] = -49.6593
+CondenserWall.T_wall[24] = 308.242
+CondenserWall.Wall_ext.phi[25] = -39.1884
+CondenserWall.T_wall[25] = 307.598
+Condenser.Cells[25].M_dot_ex = 2.72396E-005
+Condenser.Cells[25].OutFlow.h_outflow = 304613
+Condenser.Cells[25].h = 304697
+Condenser.Cells[24].M_dot_ex = 2.89711E-005
+Condenser.Cells[24].OutFlow.h_outflow = 310449
+Condenser.Cells[24].h = 310665
+Condenser.Cells[23].M_dot_ex = 4.62615E-005
+Condenser.Cells[23].OutFlow.h_outflow = 318037
+Condenser.Cells[23].h = 318299
+Condenser.Cells[22].M_dot_ex = 4.19007E-005
+Condenser.Cells[22].OutFlow.h_outflow = 327657
+Condenser.Cells[22].h = 327952
+Condenser.Cells[21].M_dot_ex = 3.64086E-005
+Condenser.Cells[21].OutFlow.h_outflow = 339425
+Condenser.Cells[21].h = 339758
+Condenser.Cells[20].M_dot_ex = 3.27408E-005
+Condenser.Cells[20].OutFlow.h_outflow = 353431
+Condenser.Cells[20].h = 353805
+Condenser.Cells[19].M_dot_ex = 2.94012E-005
+Condenser.Cells[19].OutFlow.h_outflow = 369732
+Condenser.Cells[19].h = 370151
+Condenser.Cells[18].M_dot_ex = 2.61366E-005
+Condenser.Cells[18].OutFlow.h_outflow = 388349
+Condenser.Cells[18].h = 388818
+Condenser.Cells[17].M_dot_ex = 2.30041E-005
+Condenser.Cells[17].OutFlow.h_outflow = 409255
+Condenser.Cells[17].h = 409775
+Condenser.Cells[16].M_dot_ex = 2.01772E-005
+Condenser.Cells[16].OutFlow.h_outflow = 432351
+Condenser.Cells[16].h = 432925
+Condenser.Cells[15].M_dot_ex = 1.78215E-005
+Condenser.Cells[15].OutFlow.h_outflow = 457452
+Condenser.Cells[15].h = 458089
+Condenser.Cells[14].M_dot_ex = 1.64598E-005
+Condenser.Cells[14].OutFlow.h_outflow = 484234
+Condenser.Cells[14].h = 484923
+Condenser.Cells[13].M_dot_ex = 1.78361E-005
+Condenser.Cells[13].OutFlow.h_outflow = 512888
+Condenser.Cells[13].h = 515738
+Condenser.Cells[12].M_dot_ex = 2.38753E-005
+Condenser.Cells[12].OutFlow.h_outflow = 540684
+Condenser.Cells[12].h = 541411
+Condenser.Cells[11].M_dot_ex = 2.92066E-005
+Condenser.Cells[11].OutFlow.h_outflow = 568023
+Condenser.Cells[11].h = 568885
+Condenser.Cells[10].M_dot_ex = 3.86885E-005
+Condenser.Cells[10].OutFlow.h_outflow = 592059
+Condenser.Cells[10].h = 592916
+Condenser.Cells[9].M_dot_ex = 3.63028E-005
+Condenser.Cells[9].OutFlow.h_outflow = 611471
+Condenser.Cells[9].h = 612518
+Condenser.Cells[8].M_dot_ex = 3.59019E-005
+Condenser.Cells[8].OutFlow.h_outflow = 624088
+Condenser.Cells[8].h = 625202
+Condenser.Cells[7].M_dot_ex = 3.0159E-005
+Condenser.Cells[7].OutFlow.h_outflow = 623195
+Condenser.Cells[7].h = 623571
+Condenser.Cells[6].M_dot_ex = 2.57844E-005
+Condenser.Cells[6].OutFlow.h_outflow = 611179
+Condenser.Cells[6].h = 612314
+Condenser.Cells[5].M_dot_ex = 3.64131E-005
+Condenser.Cells[5].OutFlow.h_outflow = 620909
+Condenser.Cells[5].h = 620867
+Condenser.Cells[4].M_dot_ex = 3.56563E-005
+Condenser.Cells[4].OutFlow.h_outflow = 627299
+Condenser.Cells[4].h = 628244
+Condenser.Cells[3].M_dot_ex = 2.18146E-005
+Condenser.Cells[3].OutFlow.h_outflow = 619404
+Condenser.Cells[3].h = 619200
+Condenser.Cells[2].M_dot_ex = 1.98606E-005
+Condenser.Cells[2].OutFlow.h_outflow = 589458
+Condenser.Cells[2].h = 582944
+Condenser.Cells[1].M_dot_ex = 0.00010272
+Condenser.Cells[1].der(p) = -6300.73
+EvaporatorExternalResistance.port1.phi[1] = 29.2563
+RefrigeratedCompartment.Wall_ext.phi[1] = 29.2929
+RefrigeratedCompartment.T_wall[1] = 275.346
+EvaporatorWall.Wall_ext.phi[1] = 29.2399
+EvaporatorWall.T_wall[1] = 254.203
+EvaporatorExternalResistance.port1.phi[2] = 62.4146
+RefrigeratedCompartment.Wall_ext.phi[2] = 62.4625
+RefrigeratedCompartment.T_wall[2] = 251.821
+EvaporatorWall.Wall_ext.phi[2] = 62.3895
+EvaporatorWall.T_wall[2] = 242.459
+EvaporatorExternalResistance.port1.phi[3] = 52.5423
+RefrigeratedCompartment.Wall_ext.phi[3] = 52.574
+RefrigeratedCompartment.T_wall[3] = 260.305
+EvaporatorWall.Wall_ext.phi[3] = 52.5247
+EvaporatorWall.T_wall[3] = 252.445
+EvaporatorExternalResistance.port1.phi[4] = 45.2569
+RefrigeratedCompartment.Wall_ext.phi[4] = 45.2856
+RefrigeratedCompartment.T_wall[4] = 266.052
+EvaporatorWall.Wall_ext.phi[4] = 45.2422
+EvaporatorWall.T_wall[4] = 257.996
+EvaporatorExternalResistance.port1.phi[5] = 38.331
+RefrigeratedCompartment.Wall_ext.phi[5] = 38.3519
+RefrigeratedCompartment.T_wall[5] = 271.957
+EvaporatorWall.Wall_ext.phi[5] = 38.3203
+EvaporatorWall.T_wall[5] = 264.865
+EvaporatorExternalResistance.port1.phi[6] = 31.7879
+RefrigeratedCompartment.Wall_ext.phi[6] = 31.8039
+RefrigeratedCompartment.T_wall[6] = 277.277
+EvaporatorWall.Wall_ext.phi[6] = 31.78
+EvaporatorWall.T_wall[6] = 270.454
+EvaporatorExternalResistance.port1.phi[7] = 26.0692
+RefrigeratedCompartment.Wall_ext.phi[7] = 26.0807
+RefrigeratedCompartment.T_wall[7] = 282.204
+EvaporatorWall.Wall_ext.phi[7] = 26.0637
+EvaporatorWall.T_wall[7] = 276.265
+EvaporatorExternalResistance.port1.phi[8] = 21.6183
+RefrigeratedCompartment.Wall_ext.phi[8] = 21.627
+RefrigeratedCompartment.T_wall[8] = 285.931
+EvaporatorWall.Wall_ext.phi[8] = 21.6143
+EvaporatorWall.T_wall[8] = 280.428
+EvaporatorExternalResistance.port1.phi[9] = 18.0886
+RefrigeratedCompartment.Wall_ext.phi[9] = 18.0954
+RefrigeratedCompartment.T_wall[9] = 288.877
+EvaporatorWall.Wall_ext.phi[9] = 18.0856
+EvaporatorWall.T_wall[9] = 283.697
+EvaporatorExternalResistance.port1.phi[10] = 14.8262
+RefrigeratedCompartment.Wall_ext.phi[10] = 14.8314
+RefrigeratedCompartment.T_wall[10] = 291.607
+EvaporatorWall.Wall_ext.phi[10] = 14.8241
+EvaporatorWall.T_wall[10] = 286.747
+EvaporatorExternalResistance.port1.phi[11] = 12.0563
+RefrigeratedCompartment.Wall_ext.phi[11] = 12.0603
+RefrigeratedCompartment.T_wall[11] = 293.922
+EvaporatorWall.Wall_ext.phi[11] = 12.0548
+EvaporatorWall.T_wall[11] = 289.329
+EvaporatorExternalResistance.port1.phi[12] = 9.42243
+RefrigeratedCompartment.Wall_ext.phi[12] = 9.42544
+RefrigeratedCompartment.T_wall[12] = 296.125
+EvaporatorWall.Wall_ext.phi[12] = 9.42137
+EvaporatorWall.T_wall[12] = 291.788
+EvaporatorExternalResistance.port1.phi[13] = 7.51369
+RefrigeratedCompartment.Wall_ext.phi[13] = 7.51605
+RefrigeratedCompartment.T_wall[13] = 297.724
+EvaporatorWall.Wall_ext.phi[13] = 7.51295
+EvaporatorWall.T_wall[13] = 293.577
+EvaporatorExternalResistance.port1.phi[14] = 6.15858
+RefrigeratedCompartment.Wall_ext.phi[14] = 6.16048
+RefrigeratedCompartment.T_wall[14] = 298.861
+EvaporatorWall.Wall_ext.phi[14] = 6.15803
+EvaporatorWall.T_wall[14] = 294.856
+EvaporatorExternalResistance.port1.phi[15] = 5.12409
+RefrigeratedCompartment.Wall_ext.phi[15] = 5.12563
+RefrigeratedCompartment.T_wall[15] = 299.729
+EvaporatorWall.Wall_ext.phi[15] = 5.12369
+EvaporatorWall.T_wall[15] = 295.833
+EvaporatorExternalResistance.port1.phi[16] = 4.35723
+RefrigeratedCompartment.Wall_ext.phi[16] = 4.35848
+RefrigeratedCompartment.T_wall[16] = 300.374
+EvaporatorWall.Wall_ext.phi[16] = 4.35693
+EvaporatorWall.T_wall[16] = 296.564
+EvaporatorExternalResistance.port1.phi[17] = 3.75363
+RefrigeratedCompartment.Wall_ext.phi[17] = 3.75465
+RefrigeratedCompartment.T_wall[17] = 300.882
+EvaporatorWall.Wall_ext.phi[17] = 3.75341
+EvaporatorWall.T_wall[17] = 297.141
+EvaporatorExternalResistance.port1.phi[18] = 3.30828
+RefrigeratedCompartment.Wall_ext.phi[18] = 3.30912
+RefrigeratedCompartment.T_wall[18] = 301.26
+EvaporatorWall.Wall_ext.phi[18] = 3.30812
+EvaporatorWall.T_wall[18] = 297.573
+EvaporatorExternalResistance.port1.phi[19] = 4.11974
+RefrigeratedCompartment.Wall_ext.phi[19] = 4.1209
+RefrigeratedCompartment.T_wall[19] = 300.595
+EvaporatorWall.Wall_ext.phi[19] = 4.11948
+EvaporatorWall.T_wall[19] = 296.86
+EvaporatorExternalResistance.port1.phi[20] = 1.7294
+RefrigeratedCompartment.Wall_ext.phi[20] = 1.72995
+RefrigeratedCompartment.T_wall[20] = 302.609
+EvaporatorWall.Wall_ext.phi[20] = 1.72932
+EvaporatorWall.T_wall[20] = 299.151
+SuctionLineWall.Wall_ext.phi[1] = -39.1214
+SuctionLineWall.T_wall[1] = 305.706
+SuctionLine.Cells[1].InFlow.h_outflow = 595181
+SuctionLineWall.Wall_ext.phi[2] = -45.2577
+SuctionLineWall.T_wall[2] = 305.796
+SuctionLineWall.Wall_ext.phi[3] = -31.9232
+SuctionLineWall.T_wall[3] = 305.606
+SuctionLineWall.Wall_ext.phi[4] = -30.7701
+SuctionLineWall.T_wall[4] = 305.589
+SuctionLineWall.Wall_ext.phi[5] = -28.4501
+SuctionLineWall.T_wall[5] = 305.556
+SuctionLineWall.Wall_ext.phi[6] = -26.9998
+SuctionLineWall.T_wall[6] = 305.535
+SuctionLineWall.Wall_ext.phi[7] = -25.1097
+SuctionLineWall.T_wall[7] = 305.508
+SuctionLineWall.Wall_ext.phi[8] = -23.5661
+SuctionLineWall.T_wall[8] = 305.486
+SuctionLineWall.Wall_ext.phi[9] = -21.8664
+SuctionLineWall.T_wall[9] = 305.462
+SuctionLineWall.Wall_ext.phi[10] = -19.7811
+SuctionLineWall.T_wall[10] = 305.433
+SuctionLineWall.Wall_ext.phi[11] = -18.325
+SuctionLineWall.T_wall[11] = 305.412
+SuctionLineWall.Wall_ext.phi[12] = -16.4594
+SuctionLineWall.T_wall[12] = 305.385
+SuctionLineWall.Wall_ext.phi[13] = -14.8214
+SuctionLineWall.T_wall[13] = 305.362
+SuctionLineWall.Wall_ext.phi[14] = -13.0212
+SuctionLineWall.T_wall[14] = 305.336
+SuctionLineWall.Wall_ext.phi[15] = -12.0502
+SuctionLineWall.T_wall[15] = 305.322
+SuctionLineWall.Wall_ext.phi[16] = -11.6355
+SuctionLineWall.T_wall[16] = 305.315
+SuctionLineWall.Wall_ext.phi[17] = -13.0912
+SuctionLineWall.T_wall[17] = 305.334
+SuctionLineWall.Wall_ext.phi[18] = -11.1763
+SuctionLineWall.T_wall[18] = 305.308
+SuctionLineWall.Wall_ext.phi[19] = -3.84771
+SuctionLineWall.T_wall[19] = 305.157
+SuctionLineWall.Wall_ext.phi[20] = 34.0557
+SuctionLineWall.T_wall[20] = 304.519
+Evaporator.Cells[1].der(p) = 62.2073
+compressor.h_ex = 691031
+compressor.InFlow.h_outflow = 599346
+SuctionLine.Summary.Mdot[21] = 0.000237035
+SuctionLine.Cells[20].h = 605810
+SuctionLine.Cells[19].M_dot_ex = 0.00110002
+SuctionLine.Cells[19].OutFlow.h_outflow = 608570
+SuctionLine.Cells[19].h = 609097
+SuctionLine.Cells[18].M_dot_ex = 0.000498321
+SuctionLine.Cells[18].OutFlow.h_outflow = 608697
+SuctionLine.Cells[18].h = 608715
+SuctionLine.Cells[17].M_dot_ex = 3.59438E-005
+SuctionLine.Cells[17].OutFlow.h_outflow = 608572
+SuctionLine.Cells[17].h = 608607
+SuctionLine.Cells[16].M_dot_ex = 2.22859E-006
+SuctionLine.Cells[16].OutFlow.h_outflow = 608047
+SuctionLine.Cells[16].h = 608048
+SuctionLine.Cells[15].M_dot_ex = 3.7654E-007
+SuctionLine.Cells[15].OutFlow.h_outflow = 607679
+SuctionLine.Cells[15].h = 607661
+SuctionLine.Cells[14].M_dot_ex = -6.59447E-007
+SuctionLine.Cells[14].OutFlow.h_outflow = 607327
+SuctionLine.Cells[14].h = 607308
+SuctionLine.Cells[13].M_dot_ex = 5.21368E-007
+SuctionLine.Cells[13].OutFlow.h_outflow = 607303
+SuctionLine.Cells[13].h = 607021
+SuctionLine.Cells[12].M_dot_ex = 2.52403E-008
+SuctionLine.Cells[12].OutFlow.h_outflow = 607099
+SuctionLine.Cells[12].h = 606580
+SuctionLine.Cells[11].M_dot_ex = 2.65745E-007
+SuctionLine.Cells[11].OutFlow.h_outflow = 606410
+SuctionLine.Cells[11].h = 606403
+SuctionLine.Cells[10].M_dot_ex = 2.99067E-008
+SuctionLine.Cells[10].OutFlow.h_outflow = 606339
+SuctionLine.Cells[10].h = 606165
+SuctionLine.Cells[9].M_dot_ex = 6.56273E-008
+SuctionLine.Cells[9].OutFlow.h_outflow = 604951
+SuctionLine.Cells[9].h = 606013
+SuctionLine.Cells[8].M_dot_ex = -2.20889E-007
+SuctionLine.Cells[8].OutFlow.h_outflow = 605793
+SuctionLine.Cells[8].h = 605306
+SuctionLine.Cells[7].M_dot_ex = 7.80032E-007
+SuctionLine.Cells[7].OutFlow.h_outflow = 605087
+SuctionLine.Cells[7].h = 605036
+SuctionLine.Cells[6].M_dot_ex = 5.69626E-007
+SuctionLine.Cells[6].OutFlow.h_outflow = 605096
+SuctionLine.Cells[6].h = 604854
+SuctionLine.Cells[5].M_dot_ex = 1.93424E-007
+SuctionLine.Cells[5].OutFlow.h_outflow = 605060
+SuctionLine.Cells[5].h = 604851
+SuctionLine.Cells[4].M_dot_ex = 6.36794E-008
+SuctionLine.Cells[4].OutFlow.h_outflow = 605489
+SuctionLine.Cells[4].h = 605296
+SuctionLine.Cells[3].M_dot_ex = 6.75526E-007
+SuctionLine.Cells[3].OutFlow.h_outflow = 606470
+SuctionLine.Cells[3].h = 606286
+SuctionLine.Cells[2].M_dot_ex = 1.39972E-007
+SuctionLine.Cells[2].OutFlow.h_outflow = 603660
+SuctionLine.Cells[2].h = 602196
+SuctionLine.Cells[1].M_dot_ex = -6.46947E-006
+SuctionLine.Cells[1].OutFlow.h_outflow = 603711
+SuctionLine.Cells[1].h = 607567
+Evaporator.Summary.Mdot[21] = 2.87744E-009
+Evaporator.Cells[20].h = 573178
+Evaporator.Cells[19].M_dot_ex = 9.45451E-005
+Evaporator.Cells[19].OutFlow.h_outflow = 559727
+Evaporator.Cells[19].h = 551972
+Evaporator.Cells[18].M_dot_ex = 2.08224E-005
+Evaporator.Cells[18].OutFlow.h_outflow = 562447
+Evaporator.Cells[18].h = 563060
+Evaporator.Cells[17].M_dot_ex = 6.82615E-005
+Evaporator.Cells[17].OutFlow.h_outflow = 562685
+Evaporator.Cells[17].h = 562752
+Evaporator.Cells[16].M_dot_ex = 7.08218E-005
+Evaporator.Cells[16].OutFlow.h_outflow = 562035
+Evaporator.Cells[16].h = 562148
+Evaporator.Cells[15].M_dot_ex = 6.62105E-005
+Evaporator.Cells[15].OutFlow.h_outflow = 561142
+Evaporator.Cells[15].h = 561275
+Evaporator.Cells[14].M_dot_ex = 6.15045E-005
+Evaporator.Cells[14].OutFlow.h_outflow = 559848
+Evaporator.Cells[14].h = 559997
+Evaporator.Cells[13].M_dot_ex = 5.7614E-005
+Evaporator.Cells[13].OutFlow.h_outflow = 558006
+Evaporator.Cells[13].h = 558160
+Evaporator.Cells[12].M_dot_ex = 5.51962E-005
+Evaporator.Cells[12].OutFlow.h_outflow = 555404
+Evaporator.Cells[12].h = 555553
+Evaporator.Cells[11].M_dot_ex = 5.43326E-005
+Evaporator.Cells[11].OutFlow.h_outflow = 551781
+Evaporator.Cells[11].h = 551905
+Evaporator.Cells[10].M_dot_ex = 5.53119E-005
+Evaporator.Cells[10].OutFlow.h_outflow = 546839
+Evaporator.Cells[10].h = 546913
+Evaporator.Cells[9].M_dot_ex = 6.00467E-005
+Evaporator.Cells[9].OutFlow.h_outflow = 540637
+Evaporator.Cells[9].h = 540652
+Evaporator.Cells[8].M_dot_ex = 6.59514E-005
+Evaporator.Cells[8].OutFlow.h_outflow = 533898
+Evaporator.Cells[8].h = 533935
+Evaporator.Cells[7].M_dot_ex = 6.64521E-005
+Evaporator.Cells[7].OutFlow.h_outflow = 525794
+Evaporator.Cells[7].h = 525830
+Evaporator.Cells[6].M_dot_ex = 7.56466E-005
+Evaporator.Cells[6].OutFlow.h_outflow = 515834
+Evaporator.Cells[6].h = 515623
+Evaporator.Cells[5].M_dot_ex = 0.000153488
+Evaporator.Cells[5].OutFlow.h_outflow = 505995
+Evaporator.Cells[5].h = 505822
+Evaporator.Cells[4].M_dot_ex = 6.86716E-005
+Evaporator.Cells[4].OutFlow.h_outflow = 497787
+Evaporator.Cells[4].h = 492358
+Evaporator.Cells[3].M_dot_ex = 5.00193E-005
+Evaporator.Cells[3].OutFlow.h_outflow = 487023
+Evaporator.Cells[3].h = 484991
+Evaporator.Cells[2].M_dot_ex = -2.44259E-005
+Evaporator.Cells[2].OutFlow.h_outflow = 483487
+Evaporator.Cells[2].h = 474610
+Evaporator.Cells[1].M_dot_ex = 9.35312E-005
+Evaporator.Cells[1].OutFlow.h_outflow = 463541
+Evaporator.Cells[1].h = 462894
+valve.OutFlow.h_outflow = 353530
+Condenser.Cells[30].h = 351990
+Condenser.Cells[29].M_dot_ex = 5.18787E-006
+Condenser.Cells[29].OutFlow.h_outflow = 291441
+Condenser.Cells[29].h = 288737
+Condenser.Cells[28].M_dot_ex = 4.44981E-005
+Condenser.Cells[28].OutFlow.h_outflow = 297233
+Condenser.Cells[28].h = 299614
+Condenser.Cells[27].M_dot_ex = -1.53922E-007
+Condenser.Cells[27].OutFlow.h_outflow = 299117
+Condenser.Cells[27].h = 298843
+Condenser.Cells[26].M_dot_ex = 2.29306E-005
+Condenser.Cells[26].OutFlow.h_outflow = 300827
+Condenser.Cells[26].h = 300933
+CondenserWall.Wall_ext.phi[26] = -26.4307
+   Last values of residual vector:
+{ -0.000734895, -2.52146, -0.000480119, -0.0414587, 0.000452035,
+  20.1287, -0.00359442, 7.13852, -0.00635567, -31.1108,
+  0.0938198, 12.6089, -0.0257945, -2.10878, 0.248224,
+  -3.70457, 0.44847, -3.48991, 0.420851, -3.26699,
+  0.39241, -3.03398, 0.362952, -2.79868, 0.333454,
+  -2.54919, 0.302447, -2.29293, 0.270861, -2.01766,
+  0.23729, -1.58079, 0.18652, -0.228889, 0.244746,
+  -0.846624, 0.900404, -0.728958, 0.775805, -0.606955,
+  0.646491, -0.48102, 0.512886, -0.434604, 0.300959,
+  -0.285327, 0.0640941, -0.306632, 0.068548, -0.369271,
+  0.0831393, -0.245929, 0.0527573, 3894.38, -6534.04,
+  -10.6066, 5085.55, -1.55743, 4311.38, -1.76313,
+  3966.7, -1.48636, 3424.74, -0.965651, 10.2158,
+  -1.32528, 129.503, -1.96875, 343.609, -1.73205,
+  1142.54, -1.13603, 3.64092, 5.97686, 834.77,
+  1.45255, 102.772, 0.848255, 377.744, 0.587542,
+  375.856, 1.18374, 443.884, 1.39128, 506.547,
+  1.61148, 625.478, 1.85074, 812.619, 2.22368,
+  1118.98, 2.57399, 5.5214, 322.517, -10.5791,
+  547.381, -5.7471, -0.000274184, -5.87858, -0.000229463,
+  -6.30221, -0.000826354, -5.00509, -0.00101154, -8.18455,
+  -0.000353859, -8.42095, -0.000448123, -5.97796, -0.000996919,
+  -4.07708, -0.00127663, -3.38189, -0.00174374, -1.81681,
+  -0.00134771, -0.944563, -0.000401279, -0.2683, 0.000561537,
+  -0.0519384, 0.00103809, -0.130072, 0.00101276, -0.351912,
+  0.00064301, -0.676146, 0.000150426, -1.09447, -0.000345108,
+  -1.59867, -0.000792708, -2.18944, -0.00119361, -2.89329,
+  -0.00159602, -3.85444, -0.0022244, -4.81878, -0.00278597,
+  -2.93102, -0.000308336, 3.37083, -83.8725, -1.8017E-006,
+  5.23659, -215.892, -9.99695E-005, 4.38218, -261.724,
+  -3.01806E-005, 3.54651, -295.34, -1.4679E-005, 2.94747,
+  -332.616, -9.7927E-006, 2.4519, -374.2, -6.42022E-006,
+  2.03589, -419.542, -4.22308E-006, 1.69654, -468.3,
+  -2.86177E-006, 1.43575, -519.965, -2.13681E-006, 1.25327,
+  -573.41, -1.87049E-006, 1.16984, -637.253, -2.32164E-006,
+  1.26586, -689.904, -4.63285E-006, 1.71738, -2850.51,
+  -8.89015E-006, 2.26897, -726.91, -7.94487E-006, 3.44932,
+  -862.766, -1.19416E-005, 4.05472, -857.603, -2.62438E-007,
+  5.55563, -1046.74, -6.4879E-006, 8.14778, -1114.46,
+  5.08511E-006, 7.79412, -376.154, 3.71344E-006, 5.04127,
+  -1134.66, -1.71087E-005, 6.53916, 42.2643, 8.95199E-008,
+  6.25185, -945.376, 1.31905E-005, 5.81348, 203.804,
+  1.28316E-006, 28.4548, 6514.13, -8.51493E-005, -0.000136453,
+  -0.00166885, -0.294773, 11.9753, 0.00074805, -8.2984,
+  -0.00218191, -0.0698131, -15.0582, 0.00114618, -1.42124,
+  -0.00144318, -0.0564614, 0.47802, 0.000802692, -1.18723,
+  -0.00130558, -0.0743596, 9.97969, 0.000672307, -1.60795,
+  -0.000952565, -0.0673879, 24.847, 0.000487302, -1.48464,
+  -0.000730334, -0.0748732, 66.3099, 0.000357147, -1.65995,
+  -0.000526015, -0.0662551, 42.0634, 0.000252017, -1.51781,
+  -0.000398036, -0.0654102, 36.0262, 0.00018311, -1.5219,
+  -0.000309479, -0.0652617, 34.1389, 0.000135844, -1.5354,
+  -0.000236343, -0.0647058, 30.2538, 9.78056E-005, -1.53816,
+  -0.000181556, -0.0643482, 27.5336, 6.98939E-005, -1.5432,
+  -0.000137319, -0.0639503, 27.4109, 4.81151E-005, -1.54647,
+  -0.000107316, -0.0635757, 28.0175, 3.39257E-005, -1.54669,
+  -8.6736E-005, -0.0631673, 29.2242, 2.47807E-005, -1.54336,
+  -7.00634E-005, -0.0628648, 31.0988, 1.80442E-005, -1.5411,
+  -5.73382E-005, -0.0625383, 33.315, 1.34148E-005, -1.53708,
+  -4.67421E-005, -0.0622378, 35.5207, 9.98319E-006, -1.53314,
+  -3.82435E-005, -0.0619149, 34.8853, 7.52175E-006, -1.52846,
+  -5.27544E-005, -0.0612811, 17.3149, 1.18719E-005, -1.51362,
+  -2.51782E-005, -0.0600688, 35.4638, 3.74094E-006, -1.49658,
+  0.0679238, -0.000343968, 22003.8, 0.124065, -4.00716E-005,
+  0.0566047, -3.19574E-005, 0.0583604, -7.16782E-005, 0.0501608,
+  -7.54771E-005, 0.048771, -6.77847E-005, 0.0479838, -5.61495E-005,
+  0.0463177, -4.28722E-005, 0.0396995, -2.73099E-005, 0.0349675,
+  -9.2098E-006, 0.0321247, 7.54912E-006, 0.0303587, 1.21935E-005,
+  0.0259675, 3.66058E-006, 0.0252007, -8.41114E-006, 0.023788,
+  -9.63522E-006, 0.0218486, -0.000169364, 0.0286079, -0.000313146,
+  0.0712366, -0.000228288, 0.340911, -0.0058669, 1.15987,
+  -0.0175277, -1.21252E-005, 1.67956E-005, -6464.37, -4.25541,
+  -0.000862978, -0.713824, -526.16, 0.000601699, -0.055887,
+  -18.1015, 0.000462381, -0.00604479, -34.7781, 3.37187E-005,
+  -0.00166949, -0.148123, 1.85552E-006, -0.0030209, 18.1915,
+  1.03946E-006, -0.00276591, -333.664, -1.17734E-006, -0.000254232,
+  281.666, 4.99607E-007, -0.00189012, 518.943, -2.37022E-007,
+  -0.000473849, 7.39948, 2.39322E-007, -0.00070924, 173.888,
+  -3.22353E-008, -0.00197778, -1062.03, 2.90003E-007, -0.00551355,
+  -219.367, -9.97429E-007, -0.00455976, 50.4438, 2.13899E-007,
+  -0.00197547, 241.348, 3.79697E-007, -0.000946798, 209.281,
+  1.33239E-007, -0.00590202, 193.349, -6.08355E-007, -0.000873014,
+  183.835, 5.39039E-007, -0.0454846, 1463.77, 6.61296E-006,
+  0.0247865, 1514.62, -6.46887E-006, -34.2714, -9.45307E-005,
+  -16.9879, 7755.54, 7.37349E-005, -35.0236, -612.838,
+  -4.74273E-005, -35.6459, -66.5854, -2.5484E-006, -33.4553,
+  -113.01, 4.62313E-006, -31.2537, -133.076, 4.71794E-006,
+  -29.3995, -148.772, 3.90242E-006, -28.2169, -154.592,
+  2.42977E-006, -27.6437, -148.497, 8.75606E-007, -27.8097,
+  -124.46, -9.67143E-007, -30.5568, -74.3787, -4.72243E-006,
+  -34.5186, -15.0548, -5.89212E-006, -36.4726, -36.5086,
+  -4.87908E-007, -42.4973, -35.4428, -9.18133E-006, -66.2642,
+  211.485, -7.72322E-005, -26.0146, 172.861, 8.52566E-005,
+  -11.4012, 5429.57, 1.9092E-005, -2.76935, 2031.57,
+  7.49015E-005, 13.0344, -1504.65, -0.000117539, -1.64609,
+  647.157, 1539.66, -0.710382, 9.05997E-005, -13.6107,
+  2703.58, -3.93752E-005, -0.026588, -2380.87, 4.45836E-005,
+  2.68683, -496.823, -2.31527E-005, 3.01261, -105.104,
+  -4.37785E-006, -2.69707, -9561.98 }
+ 
+Fixed point iterating to handle problem.
+The following error was detected at time: 0
+Invalid values for inputs p=599997 h=-283943 for fluid IsoButane
+The stack of functions is:
+ExternalMedia.Media.CoolPropMedium.setState_ph_Unique11
+ExternalMedia.Media.CoolPropMedium.setState_ph_Unique11(Condenser.Cells[1].p-Condenser.Cells[26].deltaP/2, Condenser.Cells[26].h, 0)
+Non-linear solver will attempt to handle this problem.
+
+The following error was detected at time: 0
+Input to TTSE [T = 112.3319014507468, rho = 741.8741034447396] is out of range
+The stack of functions is:
+ExternalMedia.Media.CoolPropMedium.setState_ph_Unique11
+ExternalMedia.Media.CoolPropMedium.setState_ph_Unique11(Condenser.Cells[1].p-Condenser.Cells[9].deltaP/2, Condenser.Cells[9].h, 0)
+Non-linear solver will attempt to handle this problem.
+
+ERROR: Failed to solve non-linear system using Newton solver.
+To get more information: Turn on Simulation/Setup/Debug/Nonlinear solver diagnostics/Details
+Solution to systems of equations not found at time = 0
+   Nonlinear system of equations number = 1
+   Infinity-norm of residue = 434611
+   Iteration is not making good progress.
+   Accumulated number of residue calculations: 24532
+   Last values of solution vector:
+CondenserWall.T_wall[26] = 307.55
+CondenserWall.Wall_ext.phi[27] = -34.6087
+CondenserWall.T_wall[27] = 307.315
+CondenserWall.Wall_ext.phi[28] = -38.3678
+CondenserWall.T_wall[28] = 307.55
+CondenserWall.Wall_ext.phi[29] = -210.034
+CondenserWall.T_wall[29] = 318.274
+CondenserWall.Wall_ext.phi[30] = -219.986
+CondenserWall.T_wall[30] = 318.896
+CondenserWall.Wall_ext.phi[2] = -153.968
+CondenserWall.T_wall[2] = 314.779
+CondenserWall.Wall_ext.phi[1] = -226.019
+CondenserWall.T_wall[1] = 319.388
+DischargeLinewall.Wall_ext.phi[10] = -188.845
+DischargeLinewall.T_wall[10] = 316.557
+DischargeLinewall.Wall_ext.phi[9] = -138.564
+DischargeLinewall.T_wall[9] = 314.275
+DischargeLinewall.Wall_ext.phi[8] = -156.753
+DischargeLinewall.T_wall[8] = 315.286
+DischargeLinewall.Wall_ext.phi[7] = -176.13
+DischargeLinewall.T_wall[7] = 316.353
+DischargeLinewall.Wall_ext.phi[6] = -196.545
+DischargeLinewall.T_wall[6] = 317.475
+DischargeLinewall.Wall_ext.phi[5] = -217.73
+DischargeLinewall.T_wall[5] = 318.639
+DischargeLinewall.Wall_ext.phi[4] = -240.178
+DischargeLinewall.T_wall[4] = 319.871
+DischargeLinewall.Wall_ext.phi[3] = -263.651
+DischargeLinewall.T_wall[3] = 321.158
+DischargeLinewall.Wall_ext.phi[2] = -288.569
+DischargeLinewall.T_wall[2] = 322.518
+DischargeLinewall.Wall_ext.phi[1] = -323.081
+DischargeLinewall.T_wall[1] = 324.361
+DischargeTubeWall.Wall_ext.phi[10] = -222.252
+DischargeTubeWall.T_wall[10] = 326.525
+DischargeTubeWall.Wall_ext.phi[9] = -116.284
+DischargeTubeWall.T_wall[9] = 325.69
+DischargeTubeWall.Wall_ext.phi[8] = -193.557
+DischargeTubeWall.T_wall[8] = 326.557
+DischargeTubeWall.Wall_ext.phi[7] = -278.304
+DischargeTubeWall.T_wall[7] = 327.507
+DischargeTubeWall.Wall_ext.phi[6] = -369.859
+DischargeTubeWall.T_wall[6] = 328.532
+DischargeTubeWall.Wall_ext.phi[5] = -466.871
+DischargeTubeWall.T_wall[5] = 329.619
+DischargeTubeWall.Wall_ext.phi[4] = -588.916
+DischargeTubeWall.T_wall[4] = 330.949
+DischargeTubeWall.Wall_ext.phi[3] = -702.86
+DischargeTubeWall.T_wall[3] = 332.222
+DischargeTubeWall.Wall_ext.phi[2] = -828.801
+DischargeTubeWall.T_wall[2] = 333.615
+DischargeTubeWall.Wall_ext.phi[1] = -1017.55
+DischargeTubeWall.T_wall[1] = 335.609
+DischargeTube.Cells[1].h = 683561
+DischargeTube.Summary.hnode[1] = 696315
+DischargeTube.Cells[1].OutFlow.h_outflow = 689819
+DischargeTube.Cells[2].h = 676042
+DischargeTube.Cells[2].OutFlow.h_outflow = 683379
+DischargeTube.Cells[3].h = 670344
+DischargeTube.Cells[3].OutFlow.h_outflow = 677784
+DischargeTube.Cells[4].h = 665065
+DischargeTube.Cells[4].OutFlow.h_outflow = 672561
+DischargeTube.Cells[5].h = 659804
+DischargeTube.Cells[5].OutFlow.h_outflow = 667611
+DischargeTube.Cells[6].h = 655294
+DischargeTube.Cells[6].OutFlow.h_outflow = 663130
+DischargeTube.Cells[7].h = 651071
+DischargeTube.Cells[7].OutFlow.h_outflow = 658950
+DischargeTube.Cells[8].h = 647152
+DischargeTube.Cells[8].OutFlow.h_outflow = 655058
+DischargeTube.Cells[9].h = 643572
+DischargeTube.Cells[9].OutFlow.h_outflow = 651478
+DischargeTube.Cells[10].h = 644622
+DischargeLine.Cells[1].h = 640385
+DischargeLine.Summary.hnode[1] = 649591
+DischargeLine.Cells[1].OutFlow.h_outflow = 647181
+DischargeLine.Cells[2].h = 637064
+DischargeLine.Cells[2].OutFlow.h_outflow = 644335
+DischargeLine.Cells[3].h = 634332
+DischargeLine.Cells[3].OutFlow.h_outflow = 641765
+DischargeLine.Cells[4].h = 631708
+DischargeLine.Cells[4].OutFlow.h_outflow = 639302
+DischargeLine.Cells[5].h = 629195
+DischargeLine.Cells[5].OutFlow.h_outflow = 636941
+DischargeLine.Cells[6].h = 626805
+DischargeLine.Cells[6].OutFlow.h_outflow = 634682
+DischargeLine.Cells[7].h = 624507
+DischargeLine.Cells[7].OutFlow.h_outflow = 632510
+DischargeLine.Cells[8].h = 622303
+DischargeLine.Cells[8].OutFlow.h_outflow = 630375
+DischargeLine.Cells[9].h = 620089
+DischargeLine.Cells[9].OutFlow.h_outflow = 627874
+DischargeLine.Cells[10].h = 620912
+Condenser.Cells[1].InFlow.h_outflow = 624311
+Condenser.Cells[1].h = 619192
+Condenser.Cells[1].OutFlow.h_outflow = 617349
+CondenserWall.Wall_ext.phi[3] = -164.778
+CondenserWall.T_wall[3] = 315.452
+CondenserWall.Wall_ext.phi[4] = -156.108
+CondenserWall.T_wall[4] = 314.91
+CondenserWall.Wall_ext.phi[5] = -151.557
+CondenserWall.T_wall[5] = 314.625
+CondenserWall.Wall_ext.phi[6] = -119.023
+CondenserWall.T_wall[6] = 312.592
+CondenserWall.Wall_ext.phi[7] = -95.4805
+CondenserWall.T_wall[7] = 311.121
+CondenserWall.Wall_ext.phi[8] = -96.0226
+CondenserWall.T_wall[8] = 311.154
+CondenserWall.Wall_ext.phi[9] = -95.4973
+CondenserWall.T_wall[9] = 311.121
+CondenserWall.Wall_ext.phi[10] = -104.078
+CondenserWall.T_wall[10] = 311.658
+CondenserWall.Wall_ext.phi[11] = -106.536
+CondenserWall.T_wall[11] = 311.811
+CondenserWall.Wall_ext.phi[12] = -108.556
+CondenserWall.T_wall[12] = 311.937
+CondenserWall.Wall_ext.phi[13] = -109.092
+CondenserWall.T_wall[13] = 311.971
+CondenserWall.Wall_ext.phi[14] = -107.713
+CondenserWall.T_wall[14] = 311.885
+CondenserWall.Wall_ext.phi[15] = -105.593
+CondenserWall.T_wall[15] = 311.752
+CondenserWall.Wall_ext.phi[16] = -102.403
+CondenserWall.T_wall[16] = 311.553
+CondenserWall.Wall_ext.phi[17] = -97.1869
+CondenserWall.T_wall[17] = 311.226
+CondenserWall.Wall_ext.phi[18] = -99.5413
+CondenserWall.T_wall[18] = 311.374
+CondenserWall.Wall_ext.phi[19] = -90.1537
+CondenserWall.T_wall[19] = 310.787
+CondenserWall.Wall_ext.phi[20] = -83.2161
+CondenserWall.T_wall[20] = 310.353
+CondenserWall.Wall_ext.phi[21] = -76.0204
+CondenserWall.T_wall[21] = 309.903
+CondenserWall.Wall_ext.phi[22] = -68.3868
+CondenserWall.T_wall[22] = 309.426
+CondenserWall.Wall_ext.phi[23] = -60.3845
+CondenserWall.T_wall[23] = 308.926
+CondenserWall.Wall_ext.phi[24] = -52.1794
+CondenserWall.T_wall[24] = 308.413
+CondenserWall.Wall_ext.phi[25] = -45.0769
+CondenserWall.T_wall[25] = 307.969
+Condenser.Cells[25].M_dot_ex = -3.54438E-006
+Condenser.Cells[25].OutFlow.h_outflow = 213249
+Condenser.Cells[25].h = 209725
+Condenser.Cells[24].M_dot_ex = -3.16892E-006
+Condenser.Cells[24].OutFlow.h_outflow = 208505
+Condenser.Cells[24].h = 204370
+Condenser.Cells[23].M_dot_ex = -2.68112E-006
+Condenser.Cells[23].OutFlow.h_outflow = 203031
+Condenser.Cells[23].h = 198509
+Condenser.Cells[22].M_dot_ex = -2.15785E-006
+Condenser.Cells[22].OutFlow.h_outflow = 197138
+Condenser.Cells[22].h = 192460
+Condenser.Cells[21].M_dot_ex = -1.64141E-006
+Condenser.Cells[21].OutFlow.h_outflow = 191122
+Condenser.Cells[21].h = 186448
+Condenser.Cells[20].M_dot_ex = -1.14501E-006
+Condenser.Cells[20].OutFlow.h_outflow = 185210
+Condenser.Cells[20].h = 180602
+Condenser.Cells[19].M_dot_ex = -6.59912E-007
+Condenser.Cells[19].OutFlow.h_outflow = 179512
+Condenser.Cells[19].h = 174246
+Condenser.Cells[18].M_dot_ex = -1.32942E-006
+Condenser.Cells[18].OutFlow.h_outflow = 173876
+Condenser.Cells[18].h = 151238
+Condenser.Cells[17].M_dot_ex = -3.21828E-006
+Condenser.Cells[17].OutFlow.h_outflow = 151302
+Condenser.Cells[17].h = 173258
+Condenser.Cells[16].M_dot_ex = -4.77341E-007
+Condenser.Cells[16].OutFlow.h_outflow = 171708
+Condenser.Cells[16].h = 171587
+Condenser.Cells[15].M_dot_ex = 1.83413E-007
+Condenser.Cells[15].OutFlow.h_outflow = 170136
+Condenser.Cells[15].h = 170069
+Condenser.Cells[14].M_dot_ex = 4.9252E-007
+Condenser.Cells[14].OutFlow.h_outflow = 170219
+Condenser.Cells[14].h = 170207
+Condenser.Cells[13].M_dot_ex = 6.4746E-007
+Condenser.Cells[13].OutFlow.h_outflow = 171993
+Condenser.Cells[13].h = 172041
+Condenser.Cells[12].M_dot_ex = 6.99189E-007
+Condenser.Cells[12].OutFlow.h_outflow = 175822
+Condenser.Cells[12].h = 175942
+Condenser.Cells[11].M_dot_ex = 6.13427E-007
+Condenser.Cells[11].OutFlow.h_outflow = 182005
+Condenser.Cells[11].h = 182211
+Condenser.Cells[10].M_dot_ex = 4.35847E-007
+Condenser.Cells[10].OutFlow.h_outflow = 191094
+Condenser.Cells[10].h = 191393
+Condenser.Cells[9].M_dot_ex = 1.25953E-007
+Condenser.Cells[9].OutFlow.h_outflow = 203257
+Condenser.Cells[9].h = 203657
+Condenser.Cells[8].M_dot_ex = 3.84943E-007
+Condenser.Cells[8].OutFlow.h_outflow = 220633
+Condenser.Cells[8].h = 221269
+Condenser.Cells[7].M_dot_ex = -5.28282E-007
+Condenser.Cells[7].OutFlow.h_outflow = 243202
+Condenser.Cells[7].h = 244302
+Condenser.Cells[6].M_dot_ex = -3.80773E-005
+Condenser.Cells[6].OutFlow.h_outflow = 271336
+Condenser.Cells[6].h = 273019
+Condenser.Cells[5].M_dot_ex = -4.62967E-006
+Condenser.Cells[5].OutFlow.h_outflow = 306696
+Condenser.Cells[5].h = 308459
+Condenser.Cells[4].M_dot_ex = 3.81191E-005
+Condenser.Cells[4].OutFlow.h_outflow = 366046
+Condenser.Cells[4].h = 366046
+Condenser.Cells[3].M_dot_ex = 3.78286E-005
+Condenser.Cells[3].OutFlow.h_outflow = 444382
+Condenser.Cells[3].h = 444382
+Condenser.Cells[2].M_dot_ex = 4.8686E-005
+Condenser.Cells[2].OutFlow.h_outflow = 540987
+Condenser.Cells[2].h = 546142
+Condenser.Cells[1].M_dot_ex = 0.000127967
+Condenser.Cells[1].der(p) = 2043.99
+EvaporatorExternalResistance.port1.phi[1] = 108.963
+RefrigeratedCompartment.Wall_ext.phi[1] = 108.766
+RefrigeratedCompartment.T_wall[1] = 223.728
+EvaporatorWall.Wall_ext.phi[1] = 109.02
+EvaporatorWall.T_wall[1] = 241.65
+EvaporatorExternalResistance.port1.phi[2] = 111.973
+RefrigeratedCompartment.Wall_ext.phi[2] = 111.942
+RefrigeratedCompartment.T_wall[2] = 212.819
+EvaporatorWall.Wall_ext.phi[2] = 111.984
+EvaporatorWall.T_wall[2] = 204.292
+EvaporatorExternalResistance.port1.phi[3] = 102.148
+RefrigeratedCompartment.Wall_ext.phi[3] = 102.168
+RefrigeratedCompartment.T_wall[3] = 219.745
+EvaporatorWall.Wall_ext.phi[3] = 102.137
+EvaporatorWall.T_wall[3] = 209.014
+EvaporatorExternalResistance.port1.phi[4] = 90.5875
+RefrigeratedCompartment.Wall_ext.phi[4] = 90.6233
+RefrigeratedCompartment.T_wall[4] = 228.992
+EvaporatorWall.Wall_ext.phi[4] = 90.5706
+EvaporatorWall.T_wall[4] = 218.505
+EvaporatorExternalResistance.port1.phi[5] = 82.3018
+RefrigeratedCompartment.Wall_ext.phi[5] = 82.3448
+RefrigeratedCompartment.T_wall[5] = 235.569
+EvaporatorWall.Wall_ext.phi[5] = 82.2826
+EvaporatorWall.T_wall[5] = 225.129
+EvaporatorExternalResistance.port1.phi[6] = 74.6043
+RefrigeratedCompartment.Wall_ext.phi[6] = 74.6492
+RefrigeratedCompartment.T_wall[6] = 241.692
+EvaporatorWall.Wall_ext.phi[6] = 74.585
+EvaporatorWall.T_wall[6] = 231.283
+EvaporatorExternalResistance.port1.phi[7] = 67.2621
+RefrigeratedCompartment.Wall_ext.phi[7] = 67.3049
+RefrigeratedCompartment.T_wall[7] = 247.573
+EvaporatorWall.Wall_ext.phi[7] = 67.2444
+EvaporatorWall.T_wall[7] = 237.252
+EvaporatorExternalResistance.port1.phi[8] = 60.4986
+RefrigeratedCompartment.Wall_ext.phi[8] = 60.537
+RefrigeratedCompartment.T_wall[8] = 253.041
+EvaporatorWall.Wall_ext.phi[8] = 60.4832
+EvaporatorWall.T_wall[8] = 242.895
+EvaporatorExternalResistance.port1.phi[9] = 53.191
+RefrigeratedCompartment.Wall_ext.phi[9] = 53.2242
+RefrigeratedCompartment.T_wall[9] = 259.013
+EvaporatorWall.Wall_ext.phi[9] = 53.1781
+EvaporatorWall.T_wall[9] = 249.204
+EvaporatorExternalResistance.port1.phi[10] = 47.8126
+RefrigeratedCompartment.Wall_ext.phi[10] = 47.8405
+RefrigeratedCompartment.T_wall[10] = 263.388
+EvaporatorWall.Wall_ext.phi[10] = 47.802
+EvaporatorWall.T_wall[10] = 253.743
+EvaporatorExternalResistance.port1.phi[11] = 144.444
+RefrigeratedCompartment.Wall_ext.phi[11] = 144.656
+RefrigeratedCompartment.T_wall[11] = 182.064
+EvaporatorWall.Wall_ext.phi[11] = 144.369
+EvaporatorWall.T_wall[11] = 162.81
+EvaporatorExternalResistance.port1.phi[12] = 114.288
+RefrigeratedCompartment.Wall_ext.phi[12] = 114.427
+RefrigeratedCompartment.T_wall[12] = 207.286
+EvaporatorWall.Wall_ext.phi[12] = 114.24
+EvaporatorWall.T_wall[12] = 190.651
+EvaporatorExternalResistance.port1.phi[13] = 90.8805
+RefrigeratedCompartment.Wall_ext.phi[13] = 90.9712
+RefrigeratedCompartment.T_wall[13] = 226.882
+EvaporatorWall.Wall_ext.phi[13] = 90.8494
+EvaporatorWall.T_wall[13] = 212.302
+EvaporatorExternalResistance.port1.phi[14] = 72.0713
+RefrigeratedCompartment.Wall_ext.phi[14] = 72.1305
+RefrigeratedCompartment.T_wall[14] = 242.638
+EvaporatorWall.Wall_ext.phi[14] = 72.0514
+EvaporatorWall.T_wall[14] = 229.738
+EvaporatorExternalResistance.port1.phi[15] = 57.6557
+RefrigeratedCompartment.Wall_ext.phi[15] = 57.6953
+RefrigeratedCompartment.T_wall[15] = 254.716
+EvaporatorWall.Wall_ext.phi[15] = 57.6427
+EvaporatorWall.T_wall[15] = 243.111
+EvaporatorExternalResistance.port1.phi[16] = 46.8043
+RefrigeratedCompartment.Wall_ext.phi[16] = 46.8315
+RefrigeratedCompartment.T_wall[16] = 263.81
+EvaporatorWall.Wall_ext.phi[16] = 46.7956
+EvaporatorWall.T_wall[16] = 253.188
+EvaporatorExternalResistance.port1.phi[17] = 33.724
+RefrigeratedCompartment.Wall_ext.phi[17] = 33.7406
+RefrigeratedCompartment.T_wall[17] = 274.775
+EvaporatorWall.Wall_ext.phi[17] = 33.7189
+EvaporatorWall.T_wall[17] = 265.372
+EvaporatorExternalResistance.port1.phi[18] = 29.2641
+RefrigeratedCompartment.Wall_ext.phi[18] = 29.2766
+RefrigeratedCompartment.T_wall[18] = 278.514
+EvaporatorWall.Wall_ext.phi[18] = 29.2604
+EvaporatorWall.T_wall[18] = 269.513
+EvaporatorExternalResistance.port1.phi[19] = 25.2603
+RefrigeratedCompartment.Wall_ext.phi[19] = 25.2699
+RefrigeratedCompartment.T_wall[19] = 281.92
+EvaporatorWall.Wall_ext.phi[19] = 25.2575
+EvaporatorWall.T_wall[19] = 273.419
+EvaporatorExternalResistance.port1.phi[20] = 20.5225
+RefrigeratedCompartment.Wall_ext.phi[20] = 20.5291
+RefrigeratedCompartment.T_wall[20] = 285.808
+EvaporatorWall.Wall_ext.phi[20] = 20.5207
+EvaporatorWall.T_wall[20] = 277.511
+SuctionLineWall.Wall_ext.phi[1] = 637.358
+SuctionLineWall.T_wall[1] = 296.043
+SuctionLine.Cells[1].InFlow.h_outflow = 560059
+SuctionLineWall.Wall_ext.phi[2] = 538.548
+SuctionLineWall.T_wall[2] = 297.454
+SuctionLineWall.Wall_ext.phi[3] = 469.347
+SuctionLineWall.T_wall[3] = 298.443
+SuctionLineWall.Wall_ext.phi[4] = 405.277
+SuctionLineWall.T_wall[4] = 299.358
+SuctionLineWall.Wall_ext.phi[5] = 350.301
+SuctionLineWall.T_wall[5] = 300.144
+SuctionLineWall.Wall_ext.phi[6] = 302.529
+SuctionLineWall.T_wall[6] = 300.826
+SuctionLineWall.Wall_ext.phi[7] = 261.371
+SuctionLineWall.T_wall[7] = 301.414
+SuctionLineWall.Wall_ext.phi[8] = 225.691
+SuctionLineWall.T_wall[8] = 301.924
+SuctionLineWall.Wall_ext.phi[9] = 194.893
+SuctionLineWall.T_wall[9] = 302.364
+SuctionLineWall.Wall_ext.phi[10] = 168.395
+SuctionLineWall.T_wall[10] = 302.743
+SuctionLineWall.Wall_ext.phi[11] = 145.29
+SuctionLineWall.T_wall[11] = 303.073
+SuctionLineWall.Wall_ext.phi[12] = 125.445
+SuctionLineWall.T_wall[12] = 303.356
+SuctionLineWall.Wall_ext.phi[13] = 108.24
+SuctionLineWall.T_wall[13] = 303.602
+SuctionLineWall.Wall_ext.phi[14] = 93.4576
+SuctionLineWall.T_wall[14] = 303.813
+SuctionLineWall.Wall_ext.phi[15] = 80.4525
+SuctionLineWall.T_wall[15] = 303.999
+SuctionLineWall.Wall_ext.phi[16] = 69.0392
+SuctionLineWall.T_wall[16] = 304.162
+SuctionLineWall.Wall_ext.phi[17] = 58.5115
+SuctionLineWall.T_wall[17] = 304.312
+SuctionLineWall.Wall_ext.phi[18] = 50.4786
+SuctionLineWall.T_wall[18] = 304.427
+SuctionLineWall.Wall_ext.phi[19] = 45.4985
+SuctionLineWall.T_wall[19] = 304.497
+SuctionLineWall.Wall_ext.phi[20] = 105.987
+SuctionLineWall.T_wall[20] = 303.695
+Evaporator.Cells[1].der(p) = 1271.73
+compressor.h_ex = 695998
+compressor.InFlow.h_outflow = 610083
+SuctionLine.Summary.Mdot[21] = 0.000447186
+SuctionLine.Cells[20].h = 609515
+SuctionLine.Cells[19].M_dot_ex = 0.000554352
+SuctionLine.Cells[19].OutFlow.h_outflow = 607942
+SuctionLine.Cells[19].h = 607864
+SuctionLine.Cells[18].M_dot_ex = 0.000132543
+SuctionLine.Cells[18].OutFlow.h_outflow = 607208
+SuctionLine.Cells[18].h = 607189
+SuctionLine.Cells[17].M_dot_ex = 5.36642E-005
+SuctionLine.Cells[17].OutFlow.h_outflow = 606467
+SuctionLine.Cells[17].h = 606482
+SuctionLine.Cells[16].M_dot_ex = 3.38515E-005
+SuctionLine.Cells[16].OutFlow.h_outflow = 605694
+SuctionLine.Cells[16].h = 605711
+SuctionLine.Cells[15].M_dot_ex = 3.15555E-005
+SuctionLine.Cells[15].OutFlow.h_outflow = 604859
+SuctionLine.Cells[15].h = 604875
+SuctionLine.Cells[14].M_dot_ex = 3.07849E-005
+SuctionLine.Cells[14].OutFlow.h_outflow = 603949
+SuctionLine.Cells[14].h = 603963
+SuctionLine.Cells[13].M_dot_ex = 3.08292E-005
+SuctionLine.Cells[13].OutFlow.h_outflow = 602951
+SuctionLine.Cells[13].h = 602965
+SuctionLine.Cells[12].M_dot_ex = 3.13498E-005
+SuctionLine.Cells[12].OutFlow.h_outflow = 601849
+SuctionLine.Cells[12].h = 601863
+SuctionLine.Cells[11].M_dot_ex = 3.23454E-005
+SuctionLine.Cells[11].OutFlow.h_outflow = 600625
+SuctionLine.Cells[11].h = 600638
+SuctionLine.Cells[10].M_dot_ex = 3.36361E-005
+SuctionLine.Cells[10].OutFlow.h_outflow = 599255
+SuctionLine.Cells[10].h = 599268
+SuctionLine.Cells[9].M_dot_ex = 3.52095E-005
+SuctionLine.Cells[9].OutFlow.h_outflow = 597721
+SuctionLine.Cells[9].h = 597734
+SuctionLine.Cells[8].M_dot_ex = 3.69008E-005
+SuctionLine.Cells[8].OutFlow.h_outflow = 596000
+SuctionLine.Cells[8].h = 596013
+SuctionLine.Cells[7].M_dot_ex = 3.87951E-005
+SuctionLine.Cells[7].OutFlow.h_outflow = 594069
+SuctionLine.Cells[7].h = 594082
+SuctionLine.Cells[6].M_dot_ex = 4.08329E-005
+SuctionLine.Cells[6].OutFlow.h_outflow = 591898
+SuctionLine.Cells[6].h = 591912
+SuctionLine.Cells[5].M_dot_ex = 4.29376E-005
+SuctionLine.Cells[5].OutFlow.h_outflow = 589453
+SuctionLine.Cells[5].h = 589467
+SuctionLine.Cells[4].M_dot_ex = 4.51283E-005
+SuctionLine.Cells[4].OutFlow.h_outflow = 586692
+SuctionLine.Cells[4].h = 586707
+SuctionLine.Cells[3].M_dot_ex = 4.72818E-005
+SuctionLine.Cells[3].OutFlow.h_outflow = 583565
+SuctionLine.Cells[3].h = 583580
+SuctionLine.Cells[2].M_dot_ex = 4.95138E-005
+SuctionLine.Cells[2].OutFlow.h_outflow = 580047
+SuctionLine.Cells[2].h = 580067
+SuctionLine.Cells[1].M_dot_ex = 5.18621E-005
+SuctionLine.Cells[1].OutFlow.h_outflow = 575897
+SuctionLine.Cells[1].h = 575924
+Evaporator.Summary.Mdot[21] = 7.2439E-005
+Evaporator.Cells[20].h = 556341
+Evaporator.Cells[19].M_dot_ex = -3.91352E-006
+Evaporator.Cells[19].OutFlow.h_outflow = 547128
+Evaporator.Cells[19].h = 538609
+Evaporator.Cells[18].M_dot_ex = 5.44605E-007
+Evaporator.Cells[18].OutFlow.h_outflow = 535553
+Evaporator.Cells[18].h = 535454
+Evaporator.Cells[17].M_dot_ex = 1.65467E-006
+Evaporator.Cells[17].OutFlow.h_outflow = 529941
+Evaporator.Cells[17].h = 529334
+Evaporator.Cells[16].M_dot_ex = -1.62385E-006
+Evaporator.Cells[16].OutFlow.h_outflow = 526616
+Evaporator.Cells[16].h = 522244
+Evaporator.Cells[15].M_dot_ex = -1.41702E-005
+Evaporator.Cells[15].OutFlow.h_outflow = 516023
+Evaporator.Cells[15].h = 510662
+Evaporator.Cells[14].M_dot_ex = -1.03957E-005
+Evaporator.Cells[14].OutFlow.h_outflow = 489773
+Evaporator.Cells[14].h = 490268
+Evaporator.Cells[13].M_dot_ex = 8.42796E-007
+Evaporator.Cells[13].OutFlow.h_outflow = 462892
+Evaporator.Cells[13].h = 462180
+Evaporator.Cells[12].M_dot_ex = 2.4652E-006
+Evaporator.Cells[12].OutFlow.h_outflow = 426304
+Evaporator.Cells[12].h = 425109
+Evaporator.Cells[11].M_dot_ex = 3.59452E-006
+Evaporator.Cells[11].OutFlow.h_outflow = 378774
+Evaporator.Cells[11].h = 376073
+Evaporator.Cells[10].M_dot_ex = 3.43516E-006
+Evaporator.Cells[10].OutFlow.h_outflow = 318245
+Evaporator.Cells[10].h = 313844
+Evaporator.Cells[9].M_dot_ex = -8.94241E-007
+Evaporator.Cells[9].OutFlow.h_outflow = 309739
+Evaporator.Cells[9].h = 298430
+Evaporator.Cells[8].M_dot_ex = 6.90925E-005
+Evaporator.Cells[8].OutFlow.h_outflow = 288006
+Evaporator.Cells[8].h = 288072
+Evaporator.Cells[7].M_dot_ex = -2.00795E-006
+Evaporator.Cells[7].OutFlow.h_outflow = 284892
+Evaporator.Cells[7].h = 275201
+Evaporator.Cells[6].M_dot_ex = -6.80987E-006
+Evaporator.Cells[6].OutFlow.h_outflow = 271821
+Evaporator.Cells[6].h = 261681
+Evaporator.Cells[5].M_dot_ex = -7.35267E-006
+Evaporator.Cells[5].OutFlow.h_outflow = 258174
+Evaporator.Cells[5].h = 247778
+Evaporator.Cells[4].M_dot_ex = -5.78953E-006
+Evaporator.Cells[4].OutFlow.h_outflow = 244212
+Evaporator.Cells[4].h = 234296
+Evaporator.Cells[3].M_dot_ex = 2.55203E-005
+Evaporator.Cells[3].OutFlow.h_outflow = 228122
+Evaporator.Cells[3].h = 221653
+Evaporator.Cells[2].M_dot_ex = 0.000175044
+Evaporator.Cells[2].OutFlow.h_outflow = 216266
+Evaporator.Cells[2].h = 216881
+Evaporator.Cells[1].M_dot_ex = -0.000535056
+Evaporator.Cells[1].OutFlow.h_outflow = 212705
+Evaporator.Cells[1].h = 199702
+valve.OutFlow.h_outflow = 159458
+Condenser.Cells[30].h = 150579
+Condenser.Cells[29].M_dot_ex = 2.79216E-005
+Condenser.Cells[29].OutFlow.h_outflow = 208296
+Condenser.Cells[29].h = 246559
+Condenser.Cells[28].M_dot_ex = 8.33783E-007
+Condenser.Cells[28].OutFlow.h_outflow = 270879
+Condenser.Cells[28].h = 251353
+Condenser.Cells[27].M_dot_ex = -1.63546E-006
+Condenser.Cells[27].OutFlow.h_outflow = 234052
+Condenser.Cells[27].h = 214594
+Condenser.Cells[26].M_dot_ex = -3.96142E-006
+Condenser.Cells[26].OutFlow.h_outflow = 216160
+Condenser.Cells[26].h = 214316
+CondenserWall.Wall_ext.phi[26] = -38.3736
+   Last values of residual vector:
+{ 0.00039109, 2.77935, 0.000382274, 1.07602, 0.000393579,
+  3.72619, -0.000842503, 29.5746, -0.000679897, -1.724,
+  0.00152419, -0.622124, 0.0266904, -1.12298, 0.0295157,
+  -1.77662, 0.0459741, -1.77868, 0.045984, -1.75971,
+  0.0456776, -1.73648, 0.0452853, -1.71283, 0.0448877,
+  -1.6851, 0.044392, -1.65526, 0.0438471, -1.6169,
+  0.0430698, -1.50483, 0.0406492, -0.47006, 0.106788,
+  -0.642976, 0.14714, -0.645327, 0.148155, -0.647195,
+  0.149136, -0.648236, 0.149981, -0.650394, 0.151121,
+  -0.633537, 0.148052, -0.633699, 0.148828, -0.626606,
+  0.148062, -0.568353, 0.135979, 6258.26, 317.482,
+  -1.00381, 7337.45, -1.16739, 7440.03, -0.947489,
+  7495.92, -0.930973, 7806.51, -0.9515, 7836,
+  -0.870812, 7878.28, -0.857778, 7905.91, -0.841403,
+  7906.22, -0.805466, -2.30512, 6796.11, 4968.99,
+  1.00579, 7270.38, 0.860408, 7433.07, 0.97805,
+  7593.66, 1.01362, 7746.26, 1.04682, 7877.67,
+  1.0783, 8003.77, 1.10369, 8071.81, 1.1043,
+  7785.14, 0.906099, -1.65199, 3398.16, 1.46493,
+  -1842.57, 1.00851, 0.000825368, 0.877716, 0.000726484,
+  0.659992, 0.000701756, 2.58026, 0.000664129, 10.8841,
+  0.000833453, 1.90149, 0.000732364, 1.88455, 0.000653603,
+  1.77283, 0.000656581, 2.23816, 0.000642109, 2.52498,
+  0.000624102, 2.66882, 0.000604991, 2.60042, 0.000586847,
+  2.37299, 0.000569587, 1.88495, 0.000553537, 2.19849,
+  0.000538411, 5.61941, 0.000524962, 3.01038, 0.000510045,
+  2.12995, 0.000495484, 2.42174, 0.000480538, 2.61124,
+  0.000464783, 2.72284, 0.00044788, 2.76317, 0.000429511,
+  2.7529, 0.000410591, -2.09987, -1067.11, -3.60192E-007,
+  -2.00469, -1219.86, -4.72807E-007, -1.84085, -1339.25,
+  -5.0859E-007, -1.60772, -1371.26, -5.02047E-007, -1.30181,
+  -1338.43, -4.82287E-007, -0.900165, -1238.08, -4.71258E-007,
+  -1.67519, -1089.77, 6.83078E-007, -4.17065, -370.92,
+  1.9015E-006, -0.684135, 63.8577, -2.72741E-006, -0.363157,
+  -1550.22, -6.47301E-007, -0.803818, 66.8257, -2.95717E-007,
+  -1.00068, 11.857, -1.41545E-007, -1.05003, -48.403,
+  -3.82565E-008, -0.915315, -119.931, 9.94008E-008, -0.658851,
+  -206.167, 1.91495E-007, -0.227859, -299.226, 3.24234E-007,
+  -0.472676, -400.699, -2.44041E-007, -0.475427, -636.793,
+  9.29145E-007, -9.46535, 21932.2, 3.75664E-005, -0.746389,
+  27033.8, -3.3428E-005, -0.591365, 33676.5, 1.44418E-005,
+  -1.51747, -0.0515965, 2.86909E-006, -3.25879, -0.0515386,
+  -9.62755E-006, -5.34747, -5155.39, -7.85346E-005, -0.000319002,
+  0.00897533, 0.503759, -37.9291, -0.0026126, 13.1267,
+  0.00141857, 0.052126, -372.483, -0.000497893, 1.21638,
+  -0.000944497, -0.0144764, -138.839, 0.000478955, -0.234853,
+  -0.00163207, -0.0348794, -25.9474, 0.000768711, -0.650712,
+  -0.00195811, -0.0525062, -8.93202, 0.000875368, -1.00622,
+  -0.00204673, -0.0683646, -8.01211, 0.000879072, -1.34288,
+  -0.00194999, -0.0814334, -5.88748, 0.00080646, -1.6373,
+  -0.00175154, -0.09083, -3.27902, 0.00070162, -1.8657,
+  -0.00150926, -0.0975109, -1.07935, 0.000588658, -2.04497,
+  -0.00127124, -0.103562, -1.90855, 0.000479835, -2.21556,
+  -0.00968474, -0.138795, -19.1454, 0.00341208, -2.19083,
+  -0.00633049, -0.137102, -13.9964, 0.00220089, -2.37136,
+  -0.00412936, -0.13441, -8.20234, 0.0014149, -2.50155,
+  -0.00269454, -0.13134, -4.17219, 0.000908229, -2.59342,
+  -0.00180088, -0.128721, -4.50079, 0.000594291, -2.65992,
+  -0.00123769, -0.126496, -0.22932, 0.000397665, -2.7061,
+  -0.000755246, -0.123412, -0.601976, 0.000236026, -2.74695,
+  -0.000567341, -0.12237, -0.379567, 0.000170374, -2.76721,
+  -0.000434849, -0.118706, -0.696977, 0.000128389, -2.72176,
+  -0.000302149, -0.122135, 0.0499088, 8.20274E-005, -2.84445,
+  -0.473472, -0.00024703, 3718.01, -0.495525, -0.000315667,
+  -0.435734, -0.000274543, -0.374604, -0.000256064, -0.322642,
+  -0.000238025, -0.277863, -0.000223025, -0.239606, -0.000209904,
+  -0.206593, -0.00019915, -0.178145, -0.00019037, -0.15361,
+  -0.000183587, -0.132049, -0.000179375, -0.113336, -0.00017743,
+  -0.0968264, -0.00017871, -0.0822879, -0.000183919, -0.0690016,
+  -0.00019503, -0.0565647, -0.000214597, -0.0431887, -0.000248206,
+  -0.0155025, -0.000285135, 0.042295, -0.000346981, -0.268729,
+  0.00715221, -0.000776008, -0.00013984, 567.74, 0.953778,
+  -0.000107096, 0.00605793, 78.1624, 0.00042188, -0.0337704,
+  19.4476, 7.89499E-005, -0.0354556, -14.8752, 1.9884E-005,
+  -0.0399293, -17.075, 2.36728E-006, -0.0455717, -15.3538,
+  8.42016E-007, -0.0520949, -14.2465, 2.73086E-008, -0.0594221,
+  -13.6544, -4.48841E-007, -0.0676915, -13.1924, -9.23669E-007,
+  -0.0769546, -12.9559, -1.21861E-006, -0.0875183, -12.7164,
+  -1.50108E-006, -0.0994667, -12.7984, -1.61879E-006, -0.113027,
+  -12.8703, -1.82148E-006, -0.128222, -13.0124, -1.9646E-006,
+  -0.144992, -13.3763, -2.03125E-006, -0.163528, -13.71,
+  -2.11682E-006, -0.183674, -14.4316, -2.07915E-006, -0.207347,
+  -14.8831, -2.15712E-006, -0.226579, -19.6523, -2.27276E-006,
+  0.51253, -27.3125, -2.05006E-005, -0.993846, 7.65985E-005,
+  -0.494397, -9213.2, -4.19977E-006, -0.953288, 99.3196,
+  -8.49326E-007, -0.942134, 606.937, 3.54405E-006, -1.91854,
+  -2717.77, 1.28177E-005, 1.78998, -6221.07, 1.03352E-005,
+  0.909238, -20888.5, 7.96986E-007, 4.14397, 712.244,
+  1.34851E-005, 8.95303, 1194.15, 1.4491E-005, 12.7685,
+  2700.82, 1.82686E-005, -0.262929, 4401.23, 2.69993E-005,
+  -0.642041, -4104.78, -5.23993E-005, 0.510227, -66.088,
+  8.97149E-005, 2.79582, -3179.98, 3.01489E-005, 4.53649,
+  -3379.87, 2.76817E-005, 5.09839, -3506.83, 2.80359E-005,
+  21.9129, -3565.91, -1.66417E-006, 135.285, 6468.54,
+  -0.000121269, 367.265, -615.24, 0.000737068, 37.0868,
+  -4175.99, 8878.51, -25.462, 0.000247659, -1.68597,
+  -38263.4, 2.71054E-005, -0.494413, 19526.1, 2.48713E-006,
+  -2.30198, -17301.2, 2.3415E-006, -2.11119, 1566.05,
+  -4.01517E-007, 2.6693, -17857.4 }
+ 
+Fixed point iterating to handle problem.
+ERROR: Failed to solve non-linear system using Newton solver.
+To get more information: Turn on Simulation/Setup/Debug/Nonlinear solver diagnostics/Details
+Solution to systems of equations not found at time = 0
+   Nonlinear system of equations number = 1
+   Infinity-norm of residue = 11192.8
+   Iteration is not making good progress.
+   Accumulated number of residue calculations: 33004
+   Last values of solution vector:
+CondenserWall.T_wall[26] = 316.659
+CondenserWall.Wall_ext.phi[27] = -184.153
+CondenserWall.T_wall[27] = 316.659
+CondenserWall.Wall_ext.phi[28] = -184.168
+CondenserWall.T_wall[28] = 316.66
+CondenserWall.Wall_ext.phi[29] = -184.474
+CondenserWall.T_wall[29] = 316.677
+CondenserWall.Wall_ext.phi[30] = -169.124
+CondenserWall.T_wall[30] = 315.721
+CondenserWall.Wall_ext.phi[2] = -184.113
+CondenserWall.T_wall[2] = 316.657
+CondenserWall.Wall_ext.phi[1] = -190.312
+CondenserWall.T_wall[1] = 317.044
+DischargeLinewall.Wall_ext.phi[10] = -305.172
+DischargeLinewall.T_wall[10] = 322.104
+DischargeLinewall.Wall_ext.phi[9] = -322.7
+DischargeLinewall.T_wall[9] = 323.078
+DischargeLinewall.Wall_ext.phi[8] = -341.219
+DischargeLinewall.T_wall[8] = 324.107
+DischargeLinewall.Wall_ext.phi[7] = -360.784
+DischargeLinewall.T_wall[7] = 325.194
+DischargeLinewall.Wall_ext.phi[6] = -381.448
+DischargeLinewall.T_wall[6] = 326.342
+DischargeLinewall.Wall_ext.phi[5] = -403.271
+DischargeLinewall.T_wall[5] = 327.554
+DischargeLinewall.Wall_ext.phi[4] = -426.311
+DischargeLinewall.T_wall[4] = 328.834
+DischargeLinewall.Wall_ext.phi[3] = -450.634
+DischargeLinewall.T_wall[3] = 330.185
+DischargeLinewall.Wall_ext.phi[2] = -476.301
+DischargeLinewall.T_wall[2] = 331.611
+DischargeLinewall.Wall_ext.phi[1] = -503.382
+DischargeLinewall.T_wall[1] = 333.116
+DischargeTubeWall.Wall_ext.phi[10] = -641.625
+DischargeTubeWall.T_wall[10] = 330.279
+DischargeTubeWall.Wall_ext.phi[9] = -712.955
+DischargeTubeWall.T_wall[9] = 331.072
+DischargeTubeWall.Wall_ext.phi[8] = -792.046
+DischargeTubeWall.T_wall[8] = 331.95
+DischargeTubeWall.Wall_ext.phi[7] = -879.695
+DischargeTubeWall.T_wall[7] = 332.924
+DischargeTubeWall.Wall_ext.phi[6] = -976.767
+DischargeTubeWall.T_wall[6] = 334.003
+DischargeTubeWall.Wall_ext.phi[5] = -1084.2
+DischargeTubeWall.T_wall[5] = 335.197
+DischargeTubeWall.Wall_ext.phi[4] = -1203
+DischargeTubeWall.T_wall[4] = 336.517
+DischargeTubeWall.Wall_ext.phi[3] = -1334.26
+DischargeTubeWall.T_wall[3] = 337.975
+DischargeTubeWall.Wall_ext.phi[2] = -1479.13
+DischargeTubeWall.T_wall[2] = 339.585
+DischargeTubeWall.Wall_ext.phi[1] = -1638.85
+DischargeTubeWall.T_wall[1] = 341.359
+DischargeTube.Cells[1].h = 699897
+DischargeTube.Summary.hnode[1] = 708245
+DischargeTube.Cells[1].OutFlow.h_outflow = 699897
+DischargeTube.Cells[2].h = 692363
+DischargeTube.Cells[2].OutFlow.h_outflow = 692363
+DischargeTube.Cells[3].h = 685566
+DischargeTube.Cells[3].OutFlow.h_outflow = 685566
+DischargeTube.Cells[4].h = 679439
+DischargeTube.Cells[4].OutFlow.h_outflow = 679439
+DischargeTube.Cells[5].h = 673916
+DischargeTube.Cells[5].OutFlow.h_outflow = 673916
+DischargeTube.Cells[6].h = 668941
+DischargeTube.Cells[6].OutFlow.h_outflow = 668940
+DischargeTube.Cells[7].h = 664460
+DischargeTube.Cells[7].OutFlow.h_outflow = 664460
+DischargeTube.Cells[8].h = 660425
+DischargeTube.Cells[8].OutFlow.h_outflow = 660425
+DischargeTube.Cells[9].h = 656793
+DischargeTube.Cells[9].OutFlow.h_outflow = 656793
+DischargeTube.Cells[10].h = 653525
+DischargeLine.Cells[1].h = 650021
+DischargeLine.Summary.hnode[1] = 653525
+DischargeLine.Cells[1].OutFlow.h_outflow = 650021
+DischargeLine.Cells[2].h = 646705
+DischargeLine.Cells[2].OutFlow.h_outflow = 646705
+DischargeLine.Cells[3].h = 643568
+DischargeLine.Cells[3].OutFlow.h_outflow = 643567
+DischargeLine.Cells[4].h = 640600
+DischargeLine.Cells[4].OutFlow.h_outflow = 640600
+DischargeLine.Cells[5].h = 637792
+DischargeLine.Cells[5].OutFlow.h_outflow = 637792
+DischargeLine.Cells[6].h = 635137
+DischargeLine.Cells[6].OutFlow.h_outflow = 635136
+DischargeLine.Cells[7].h = 632625
+DischargeLine.Cells[7].OutFlow.h_outflow = 632625
+DischargeLine.Cells[8].h = 630249
+DischargeLine.Cells[8].OutFlow.h_outflow = 630249
+DischargeLine.Cells[9].h = 628003
+DischargeLine.Cells[9].OutFlow.h_outflow = 628003
+DischargeLine.Cells[10].h = 625878
+Condenser.Cells[1].InFlow.h_outflow = 625878
+Condenser.Cells[1].h = 614823
+Condenser.Cells[1].OutFlow.h_outflow = 614824
+CondenserWall.Wall_ext.phi[3] = -184.104
+CondenserWall.T_wall[3] = 316.657
+CondenserWall.Wall_ext.phi[4] = -184.105
+CondenserWall.T_wall[4] = 316.657
+CondenserWall.Wall_ext.phi[5] = -184.106
+CondenserWall.T_wall[5] = 316.657
+CondenserWall.Wall_ext.phi[6] = -184.108
+CondenserWall.T_wall[6] = 316.657
+CondenserWall.Wall_ext.phi[7] = -184.109
+CondenserWall.T_wall[7] = 316.657
+CondenserWall.Wall_ext.phi[8] = -184.11
+CondenserWall.T_wall[8] = 316.657
+CondenserWall.Wall_ext.phi[9] = -184.111
+CondenserWall.T_wall[9] = 316.657
+CondenserWall.Wall_ext.phi[10] = -184.113
+CondenserWall.T_wall[10] = 316.657
+CondenserWall.Wall_ext.phi[11] = -184.114
+CondenserWall.T_wall[11] = 316.657
+CondenserWall.Wall_ext.phi[12] = -184.115
+CondenserWall.T_wall[12] = 316.657
+CondenserWall.Wall_ext.phi[13] = -184.116
+CondenserWall.T_wall[13] = 316.657
+CondenserWall.Wall_ext.phi[14] = -184.118
+CondenserWall.T_wall[14] = 316.657
+CondenserWall.Wall_ext.phi[15] = -184.119
+CondenserWall.T_wall[15] = 316.658
+CondenserWall.Wall_ext.phi[16] = -184.121
+CondenserWall.T_wall[16] = 316.658
+CondenserWall.Wall_ext.phi[17] = -184.122
+CondenserWall.T_wall[17] = 316.658
+CondenserWall.Wall_ext.phi[18] = -184.124
+CondenserWall.T_wall[18] = 316.658
+CondenserWall.Wall_ext.phi[19] = -184.125
+CondenserWall.T_wall[19] = 316.658
+CondenserWall.Wall_ext.phi[20] = -184.127
+CondenserWall.T_wall[20] = 316.658
+CondenserWall.Wall_ext.phi[21] = -184.129
+CondenserWall.T_wall[21] = 316.658
+CondenserWall.Wall_ext.phi[22] = -184.131
+CondenserWall.T_wall[22] = 316.658
+CondenserWall.Wall_ext.phi[23] = -184.133
+CondenserWall.T_wall[23] = 316.658
+CondenserWall.Wall_ext.phi[24] = -184.136
+CondenserWall.T_wall[24] = 316.659
+CondenserWall.Wall_ext.phi[25] = -184.14
+CondenserWall.T_wall[25] = 316.659
+Condenser.Cells[25].M_dot_ex = 0.000257317
+Condenser.Cells[25].OutFlow.h_outflow = 358222
+Condenser.Cells[25].h = 358222
+Condenser.Cells[24].M_dot_ex = 0.000257304
+Condenser.Cells[24].OutFlow.h_outflow = 368909
+Condenser.Cells[24].h = 368909
+Condenser.Cells[23].M_dot_ex = 0.000257291
+Condenser.Cells[23].OutFlow.h_outflow = 379596
+Condenser.Cells[23].h = 379596
+Condenser.Cells[22].M_dot_ex = 0.000257279
+Condenser.Cells[22].OutFlow.h_outflow = 390285
+Condenser.Cells[22].h = 390285
+Condenser.Cells[21].M_dot_ex = 0.000257268
+Condenser.Cells[21].OutFlow.h_outflow = 400974
+Condenser.Cells[21].h = 400974
+Condenser.Cells[20].M_dot_ex = 0.000257258
+Condenser.Cells[20].OutFlow.h_outflow = 411663
+Condenser.Cells[20].h = 411663
+Condenser.Cells[19].M_dot_ex = 0.000257249
+Condenser.Cells[19].OutFlow.h_outflow = 422353
+Condenser.Cells[19].h = 422353
+Condenser.Cells[18].M_dot_ex = 0.00025724
+Condenser.Cells[18].OutFlow.h_outflow = 433043
+Condenser.Cells[18].h = 433043
+Condenser.Cells[17].M_dot_ex = 0.000257232
+Condenser.Cells[17].OutFlow.h_outflow = 443734
+Condenser.Cells[17].h = 443734
+Condenser.Cells[16].M_dot_ex = 0.000257225
+Condenser.Cells[16].OutFlow.h_outflow = 454425
+Condenser.Cells[16].h = 454425
+Condenser.Cells[15].M_dot_ex = 0.000257219
+Condenser.Cells[15].OutFlow.h_outflow = 465117
+Condenser.Cells[15].h = 465117
+Condenser.Cells[14].M_dot_ex = 0.000257213
+Condenser.Cells[14].OutFlow.h_outflow = 475808
+Condenser.Cells[14].h = 475808
+Condenser.Cells[13].M_dot_ex = 0.000257207
+Condenser.Cells[13].OutFlow.h_outflow = 486500
+Condenser.Cells[13].h = 486500
+Condenser.Cells[12].M_dot_ex = 0.000257202
+Condenser.Cells[12].OutFlow.h_outflow = 497193
+Condenser.Cells[12].h = 497193
+Condenser.Cells[11].M_dot_ex = 0.000257197
+Condenser.Cells[11].OutFlow.h_outflow = 507885
+Condenser.Cells[11].h = 507885
+Condenser.Cells[10].M_dot_ex = 0.000257192
+Condenser.Cells[10].OutFlow.h_outflow = 518578
+Condenser.Cells[10].h = 518578
+Condenser.Cells[9].M_dot_ex = 0.000257188
+Condenser.Cells[9].OutFlow.h_outflow = 529271
+Condenser.Cells[9].h = 529271
+Condenser.Cells[8].M_dot_ex = 0.000257184
+Condenser.Cells[8].OutFlow.h_outflow = 539964
+Condenser.Cells[8].h = 539964
+Condenser.Cells[7].M_dot_ex = 0.00025718
+Condenser.Cells[7].OutFlow.h_outflow = 550658
+Condenser.Cells[7].h = 550658
+Condenser.Cells[6].M_dot_ex = 0.000257177
+Condenser.Cells[6].OutFlow.h_outflow = 561351
+Condenser.Cells[6].h = 561351
+Condenser.Cells[5].M_dot_ex = 0.000257173
+Condenser.Cells[5].OutFlow.h_outflow = 572045
+Condenser.Cells[5].h = 572045
+Condenser.Cells[4].M_dot_ex = 0.00025717
+Condenser.Cells[4].OutFlow.h_outflow = 582739
+Condenser.Cells[4].h = 582739
+Condenser.Cells[3].M_dot_ex = 0.000257165
+Condenser.Cells[3].OutFlow.h_outflow = 593434
+Condenser.Cells[3].h = 593434
+Condenser.Cells[2].M_dot_ex = 0.000257152
+Condenser.Cells[2].OutFlow.h_outflow = 604128
+Condenser.Cells[2].h = 604128
+Condenser.Cells[1].M_dot_ex = 0.000257155
+Condenser.Cells[1].der(p) = -18.733
+EvaporatorExternalResistance.port1.phi[1] = 60.4012
+RefrigeratedCompartment.Wall_ext.phi[1] = 60.4007
+RefrigeratedCompartment.T_wall[1] = 254.857
+EvaporatorWall.Wall_ext.phi[1] = 60.4013
+EvaporatorWall.T_wall[1] = 248.948
+EvaporatorExternalResistance.port1.phi[2] = 60.3805
+RefrigeratedCompartment.Wall_ext.phi[2] = 60.3805
+RefrigeratedCompartment.T_wall[2] = 254.835
+EvaporatorWall.Wall_ext.phi[2] = 60.3805
+EvaporatorWall.T_wall[2] = 248.818
+EvaporatorExternalResistance.port1.phi[3] = 60.387
+RefrigeratedCompartment.Wall_ext.phi[3] = 60.387
+RefrigeratedCompartment.T_wall[3] = 254.829
+EvaporatorWall.Wall_ext.phi[3] = 60.387
+EvaporatorWall.T_wall[3] = 248.807
+EvaporatorExternalResistance.port1.phi[4] = 60.5044
+RefrigeratedCompartment.Wall_ext.phi[4] = 60.5044
+RefrigeratedCompartment.T_wall[4] = 254.732
+EvaporatorWall.Wall_ext.phi[4] = 60.5044
+EvaporatorWall.T_wall[4] = 248.705
+EvaporatorExternalResistance.port1.phi[5] = 60.619
+RefrigeratedCompartment.Wall_ext.phi[5] = 60.619
+RefrigeratedCompartment.T_wall[5] = 254.637
+EvaporatorWall.Wall_ext.phi[5] = 60.619
+EvaporatorWall.T_wall[5] = 248.618
+EvaporatorExternalResistance.port1.phi[6] = 60.7027
+RefrigeratedCompartment.Wall_ext.phi[6] = 60.7027
+RefrigeratedCompartment.T_wall[6] = 254.57
+EvaporatorWall.Wall_ext.phi[6] = 60.7027
+EvaporatorWall.T_wall[6] = 248.584
+EvaporatorExternalResistance.port1.phi[7] = 60.7518
+RefrigeratedCompartment.Wall_ext.phi[7] = 60.7518
+RefrigeratedCompartment.T_wall[7] = 254.534
+EvaporatorWall.Wall_ext.phi[7] = 60.7518
+EvaporatorWall.T_wall[7] = 248.616
+EvaporatorExternalResistance.port1.phi[8] = 60.7723
+RefrigeratedCompartment.Wall_ext.phi[8] = 60.7723
+RefrigeratedCompartment.T_wall[8] = 254.521
+EvaporatorWall.Wall_ext.phi[8] = 60.7723
+EvaporatorWall.T_wall[8] = 248.653
+EvaporatorExternalResistance.port1.phi[9] = 60.7691
+RefrigeratedCompartment.Wall_ext.phi[9] = 60.7691
+RefrigeratedCompartment.T_wall[9] = 254.522
+EvaporatorWall.Wall_ext.phi[9] = 60.769
+EvaporatorWall.T_wall[9] = 248.634
+EvaporatorExternalResistance.port1.phi[10] = 60.7528
+RefrigeratedCompartment.Wall_ext.phi[10] = 60.7528
+RefrigeratedCompartment.T_wall[10] = 254.533
+EvaporatorWall.Wall_ext.phi[10] = 60.7528
+EvaporatorWall.T_wall[10] = 248.609
+EvaporatorExternalResistance.port1.phi[11] = 60.74
+RefrigeratedCompartment.Wall_ext.phi[11] = 60.74
+RefrigeratedCompartment.T_wall[11] = 254.542
+EvaporatorWall.Wall_ext.phi[11] = 60.74
+EvaporatorWall.T_wall[11] = 248.602
+EvaporatorExternalResistance.port1.phi[12] = 60.7471
+RefrigeratedCompartment.Wall_ext.phi[12] = 60.7471
+RefrigeratedCompartment.T_wall[12] = 254.537
+EvaporatorWall.Wall_ext.phi[12] = 60.7471
+EvaporatorWall.T_wall[12] = 248.609
+EvaporatorExternalResistance.port1.phi[13] = 60.7621
+RefrigeratedCompartment.Wall_ext.phi[13] = 60.7621
+RefrigeratedCompartment.T_wall[13] = 254.526
+EvaporatorWall.Wall_ext.phi[13] = 60.7621
+EvaporatorWall.T_wall[13] = 248.622
+EvaporatorExternalResistance.port1.phi[14] = 60.6012
+RefrigeratedCompartment.Wall_ext.phi[14] = 60.6012
+RefrigeratedCompartment.T_wall[14] = 254.652
+EvaporatorWall.Wall_ext.phi[14] = 60.6012
+EvaporatorWall.T_wall[14] = 248.646
+EvaporatorExternalResistance.port1.phi[15] = 60.4527
+RefrigeratedCompartment.Wall_ext.phi[15] = 60.4527
+RefrigeratedCompartment.T_wall[15] = 254.774
+EvaporatorWall.Wall_ext.phi[15] = 60.4527
+EvaporatorWall.T_wall[15] = 248.755
+EvaporatorExternalResistance.port1.phi[16] = 60.2369
+RefrigeratedCompartment.Wall_ext.phi[16] = 60.2369
+RefrigeratedCompartment.T_wall[16] = 254.954
+EvaporatorWall.Wall_ext.phi[16] = 60.2369
+EvaporatorWall.T_wall[16] = 248.939
+EvaporatorExternalResistance.port1.phi[17] = 62.0113
+RefrigeratedCompartment.Wall_ext.phi[17] = 62.0112
+RefrigeratedCompartment.T_wall[17] = 253.529
+EvaporatorWall.Wall_ext.phi[17] = 62.0114
+EvaporatorWall.T_wall[17] = 247.564
+EvaporatorExternalResistance.port1.phi[18] = 60.867
+RefrigeratedCompartment.Wall_ext.phi[18] = 60.867
+RefrigeratedCompartment.T_wall[18] = 254.452
+EvaporatorWall.Wall_ext.phi[18] = 60.867
+EvaporatorWall.T_wall[18] = 248.589
+EvaporatorExternalResistance.port1.phi[19] = 59.6192
+RefrigeratedCompartment.Wall_ext.phi[19] = 59.6192
+RefrigeratedCompartment.T_wall[19] = 255.447
+EvaporatorWall.Wall_ext.phi[19] = 59.6191
+EvaporatorWall.T_wall[19] = 249.347
+EvaporatorExternalResistance.port1.phi[20] = 58.9823
+RefrigeratedCompartment.Wall_ext.phi[20] = 58.9823
+RefrigeratedCompartment.T_wall[20] = 255.997
+EvaporatorWall.Wall_ext.phi[20] = 58.9823
+EvaporatorWall.T_wall[20] = 250.083
+SuctionLineWall.Wall_ext.phi[1] = 1898.84
+SuctionLineWall.T_wall[1] = 278.024
+SuctionLine.Cells[1].InFlow.h_outflow = 518034
+SuctionLineWall.Wall_ext.phi[2] = 1625.52
+SuctionLineWall.T_wall[2] = 281.928
+SuctionLineWall.Wall_ext.phi[3] = 1394.94
+SuctionLineWall.T_wall[3] = 285.222
+SuctionLineWall.Wall_ext.phi[4] = 1199.52
+SuctionLineWall.T_wall[4] = 288.014
+SuctionLineWall.Wall_ext.phi[5] = 1033.26
+SuctionLineWall.T_wall[5] = 290.389
+SuctionLineWall.Wall_ext.phi[6] = 891.355
+SuctionLineWall.T_wall[6] = 292.416
+SuctionLineWall.Wall_ext.phi[7] = 769.895
+SuctionLineWall.T_wall[7] = 294.151
+SuctionLineWall.Wall_ext.phi[8] = 665.688
+SuctionLineWall.T_wall[8] = 295.64
+SuctionLineWall.Wall_ext.phi[9] = 576.104
+SuctionLineWall.T_wall[9] = 296.92
+SuctionLineWall.Wall_ext.phi[10] = 498.959
+SuctionLineWall.T_wall[10] = 298.022
+SuctionLineWall.Wall_ext.phi[11] = 432.428
+SuctionLineWall.T_wall[11] = 298.972
+SuctionLineWall.Wall_ext.phi[12] = 374.979
+SuctionLineWall.T_wall[12] = 299.793
+SuctionLineWall.Wall_ext.phi[13] = 325.319
+SuctionLineWall.T_wall[13] = 300.503
+SuctionLineWall.Wall_ext.phi[14] = 282.352
+SuctionLineWall.T_wall[14] = 301.116
+SuctionLineWall.Wall_ext.phi[15] = 245.146
+SuctionLineWall.T_wall[15] = 301.648
+SuctionLineWall.Wall_ext.phi[16] = 212.907
+SuctionLineWall.T_wall[16] = 302.108
+SuctionLineWall.Wall_ext.phi[17] = 184.955
+SuctionLineWall.T_wall[17] = 302.508
+SuctionLineWall.Wall_ext.phi[18] = 160.708
+SuctionLineWall.T_wall[18] = 302.854
+SuctionLineWall.Wall_ext.phi[19] = 139.665
+SuctionLineWall.T_wall[19] = 303.155
+SuctionLineWall.Wall_ext.phi[20] = 121.398
+SuctionLineWall.T_wall[20] = 303.416
+Evaporator.Cells[1].der(p) = 121.275
+compressor.h_ex = 708245
+compressor.InFlow.h_outflow = 605971
+SuctionLine.Summary.Mdot[21] = 0.000253991
+SuctionLine.Cells[20].h = 605971
+SuctionLine.Cells[19].M_dot_ex = 0.000257101
+SuctionLine.Cells[19].OutFlow.h_outflow = 605151
+SuctionLine.Cells[19].h = 605151
+SuctionLine.Cells[18].M_dot_ex = 0.000257062
+SuctionLine.Cells[18].OutFlow.h_outflow = 604207
+SuctionLine.Cells[18].h = 604207
+SuctionLine.Cells[17].M_dot_ex = 0.00025707
+SuctionLine.Cells[17].OutFlow.h_outflow = 603122
+SuctionLine.Cells[17].h = 603122
+SuctionLine.Cells[16].M_dot_ex = 0.000257078
+SuctionLine.Cells[16].OutFlow.h_outflow = 601873
+SuctionLine.Cells[16].h = 601873
+SuctionLine.Cells[15].M_dot_ex = 0.000257086
+SuctionLine.Cells[15].OutFlow.h_outflow = 600435
+SuctionLine.Cells[15].h = 600435
+SuctionLine.Cells[14].M_dot_ex = 0.000257094
+SuctionLine.Cells[14].OutFlow.h_outflow = 598780
+SuctionLine.Cells[14].h = 598780
+SuctionLine.Cells[13].M_dot_ex = 0.000257101
+SuctionLine.Cells[13].OutFlow.h_outflow = 596874
+SuctionLine.Cells[13].h = 596874
+SuctionLine.Cells[12].M_dot_ex = 0.000257109
+SuctionLine.Cells[12].OutFlow.h_outflow = 594678
+SuctionLine.Cells[12].h = 594678
+SuctionLine.Cells[11].M_dot_ex = 0.000257118
+SuctionLine.Cells[11].OutFlow.h_outflow = 592147
+SuctionLine.Cells[11].h = 592147
+SuctionLine.Cells[10].M_dot_ex = 0.000257129
+SuctionLine.Cells[10].OutFlow.h_outflow = 589228
+SuctionLine.Cells[10].h = 589228
+SuctionLine.Cells[9].M_dot_ex = 0.000257143
+SuctionLine.Cells[9].OutFlow.h_outflow = 585861
+SuctionLine.Cells[9].h = 585861
+SuctionLine.Cells[8].M_dot_ex = 0.000257161
+SuctionLine.Cells[8].OutFlow.h_outflow = 581974
+SuctionLine.Cells[8].h = 581974
+SuctionLine.Cells[7].M_dot_ex = 0.000257187
+SuctionLine.Cells[7].OutFlow.h_outflow = 577482
+SuctionLine.Cells[7].h = 577482
+SuctionLine.Cells[6].M_dot_ex = 0.000257222
+SuctionLine.Cells[6].OutFlow.h_outflow = 572288
+SuctionLine.Cells[6].h = 572288
+SuctionLine.Cells[5].M_dot_ex = 0.000257269
+SuctionLine.Cells[5].OutFlow.h_outflow = 566275
+SuctionLine.Cells[5].h = 566275
+SuctionLine.Cells[4].M_dot_ex = 0.000257334
+SuctionLine.Cells[4].OutFlow.h_outflow = 559305
+SuctionLine.Cells[4].h = 559305
+SuctionLine.Cells[3].M_dot_ex = 0.000257419
+SuctionLine.Cells[3].OutFlow.h_outflow = 551214
+SuctionLine.Cells[3].h = 551215
+SuctionLine.Cells[2].M_dot_ex = 0.000257531
+SuctionLine.Cells[2].OutFlow.h_outflow = 541807
+SuctionLine.Cells[2].h = 541807
+SuctionLine.Cells[1].M_dot_ex = 0.00025759
+SuctionLine.Cells[1].OutFlow.h_outflow = 530844
+SuctionLine.Cells[1].h = 530845
+Evaporator.Summary.Mdot[21] = 0.000252173
+Evaporator.Cells[20].h = 518051
+Evaporator.Cells[19].M_dot_ex = 5.42488E-005
+Evaporator.Cells[19].OutFlow.h_outflow = 507777
+Evaporator.Cells[19].h = 508148
+Evaporator.Cells[18].M_dot_ex = 0.000161986
+Evaporator.Cells[18].OutFlow.h_outflow = 497310
+Evaporator.Cells[18].h = 496981
+Evaporator.Cells[17].M_dot_ex = 0.000284344
+Evaporator.Cells[17].OutFlow.h_outflow = 486326
+Evaporator.Cells[17].h = 485427
+Evaporator.Cells[16].M_dot_ex = -7.00836E-012
+Evaporator.Cells[16].OutFlow.h_outflow = 475934
+Evaporator.Cells[16].h = 476018
+Evaporator.Cells[15].M_dot_ex = 0.000199629
+Evaporator.Cells[15].OutFlow.h_outflow = 464959
+Evaporator.Cells[15].h = 464961
+Evaporator.Cells[14].M_dot_ex = 0.000221366
+Evaporator.Cells[14].OutFlow.h_outflow = 454266
+Evaporator.Cells[14].h = 454265
+Evaporator.Cells[13].M_dot_ex = 0.000259057
+Evaporator.Cells[13].OutFlow.h_outflow = 443621
+Evaporator.Cells[13].h = 443621
+Evaporator.Cells[12].M_dot_ex = 0.000285503
+Evaporator.Cells[12].OutFlow.h_outflow = 433051
+Evaporator.Cells[12].h = 433051
+Evaporator.Cells[11].M_dot_ex = 0.000301409
+Evaporator.Cells[11].OutFlow.h_outflow = 422578
+Evaporator.Cells[11].h = 422578
+Evaporator.Cells[10].M_dot_ex = 0.000316036
+Evaporator.Cells[10].OutFlow.h_outflow = 412099
+Evaporator.Cells[10].h = 412098
+Evaporator.Cells[9].M_dot_ex = 0.000331092
+Evaporator.Cells[9].OutFlow.h_outflow = 401572
+Evaporator.Cells[9].h = 401572
+Evaporator.Cells[8].M_dot_ex = 0.000342959
+Evaporator.Cells[8].OutFlow.h_outflow = 391003
+Evaporator.Cells[8].h = 391003
+Evaporator.Cells[7].M_dot_ex = 0.000354837
+Evaporator.Cells[7].OutFlow.h_outflow = 380393
+Evaporator.Cells[7].h = 380393
+Evaporator.Cells[6].M_dot_ex = 0.000370551
+Evaporator.Cells[6].OutFlow.h_outflow = 369741
+Evaporator.Cells[6].h = 369741
+Evaporator.Cells[5].M_dot_ex = 0.000333946
+Evaporator.Cells[5].OutFlow.h_outflow = 359075
+Evaporator.Cells[5].h = 359074
+Evaporator.Cells[4].M_dot_ex = 0.00026267
+Evaporator.Cells[4].OutFlow.h_outflow = 348399
+Evaporator.Cells[4].h = 348399
+Evaporator.Cells[3].M_dot_ex = 0.00020632
+Evaporator.Cells[3].OutFlow.h_outflow = 337726
+Evaporator.Cells[3].h = 337725
+Evaporator.Cells[2].M_dot_ex = 0.000181087
+Evaporator.Cells[2].OutFlow.h_outflow = 327080
+Evaporator.Cells[2].h = 327079
+Evaporator.Cells[1].M_dot_ex = 0.000205522
+Evaporator.Cells[1].OutFlow.h_outflow = 316395
+Evaporator.Cells[1].h = 316403
+valve.OutFlow.h_outflow = 305688
+Condenser.Cells[30].h = 305679
+Condenser.Cells[29].M_dot_ex = 0.000257957
+Condenser.Cells[29].OutFlow.h_outflow = 315473
+Condenser.Cells[29].h = 315471
+Condenser.Cells[28].M_dot_ex = 0.000256779
+Condenser.Cells[28].OutFlow.h_outflow = 326166
+Condenser.Cells[28].h = 326167
+Condenser.Cells[27].M_dot_ex = 0.000257301
+Condenser.Cells[27].OutFlow.h_outflow = 336851
+Condenser.Cells[27].h = 336851
+Condenser.Cells[26].M_dot_ex = 0.000257326
+Condenser.Cells[26].OutFlow.h_outflow = 347536
+Condenser.Cells[26].h = 347536
+CondenserWall.Wall_ext.phi[26] = -184.145
+   Last values of residual vector:
+{ -1.13181E-005, 0.00210515, -2.24747E-005, 0.0044266, -4.79927E-005,
+  0.052485, -0.000527115, -0.00822895, 7.96813E-005, -0.00227093,
+  2.11238E-005, 0.0260787, 3.312E-006, -2.77756E-006, -4.54838E-007,
+  7.1962E-006, -4.90769E-007, 8.14103E-006, -5.13921E-007, 8.56751E-006,
+  -5.2417E-007, 8.70821E-006, -5.27492E-007, 9.31606E-006, -5.41931E-007,
+  9.15015E-006, -5.36796E-007, 6.58241E-006, -4.10665E-007, 8.77862E-006,
+  -5.2492E-007, 8.08486E-006, -5.12437E-007, 2.46114E-006, -1.35826E-006,
+  3.91054E-006, -1.2283E-006, 4.90017E-006, -1.44058E-006, 5.85618E-006,
+  -1.64867E-006, 6.5352E-006, -1.79829E-006, 7.12565E-006, -1.9309E-006,
+  7.40267E-006, -1.99611E-006, 7.73281E-006, -2.109E-006, 7.53248E-006,
+  -1.95618E-006, 5.6684E-006, -1.65413E-006, -0.0754971, -0.0259133,
+  0.0265543, -0.0987981, 0.0240053, -0.11154, 0.0216512,
+  -0.111139, 0.0195185, -0.109153, 0.0175888, -0.102469,
+  0.0158446, -0.0942276, 0.0142698, -0.0819225, 0.0128481,
+  -0.068522, 0.0115666, 0.0104401, -0.0817625, -0.161215,
+  0.0109405, -0.0857301, 0.0103593, -0.0714271, 0.0098016,
+  -0.0889275, 0.00927051, -0.0901679, 0.00876754, -0.0874915,
+  0.00829188, -0.0870372, 0.00784241, -0.0850531, 0.00741653,
+  -0.0791979, 0.00701427, 0.00667948, -0.124112, 0.00822972,
+  0.197935, -0.00347473, 3.86941E-005, -0.00347105, 3.83651E-005,
+  -0.00334385, 3.68667E-005, -0.00319637, 3.52064E-005, -0.00304555,
+  3.35189E-005, -0.00289471, 3.18351E-005, -0.00274419, 3.01578E-005,
+  -0.00259446, 2.8492E-005, -0.00244531, 2.68357E-005, -0.00229601,
+  2.518E-005, -0.00214638, 2.35233E-005, -0.00199576, 2.18584E-005,
+  -0.00184351, 2.01778E-005, -0.0016885, 1.84695E-005, -0.00152959,
+  1.67209E-005, -0.00136498, 1.49123E-005, -0.00119234, 1.30186E-005,
+  -0.00100818, 1.1002E-005, -0.000807443, 8.80791E-006, -0.00058209,
+  6.35008E-006, -0.000319047, 3.48868E-006, 4.54348E-006, -1.91673E-008,
+  0.000432387, -4.63314E-006, -0.000310628, -0.0219156, -1.45084E-008,
+  -1.18528E-006, -0.0154769, -9.57302E-009, 0.000234462, -0.0120114,
+  -7.06053E-009, 0.000427221, -0.00998874, -5.64665E-009, 0.000593375,
+  -0.00873979, -4.78349E-009, 0.000742279, -0.0079427, -4.22499E-009,
+  0.000879696, -0.00742878, -3.84662E-009, 0.00100928, -0.00709708,
+  -3.58139E-009, 0.00113353, -0.00689286, -3.38999E-009, 0.00125414,
+  -0.00677682, -3.24891E-009, 0.00137242, -0.00673077, -3.1427E-009,
+  0.0014892, -0.00673062, -3.062E-009, 0.0016053, -0.00677711,
+  -3.00053E-009, 0.00172122, -0.00685286, -2.95323E-009, 0.00183743,
+  -0.00695922, -2.9164E-009, 0.00195405, -0.00707377, -2.88557E-009,
+  0.00207168, -0.007227, -2.86448E-009, 0.00219045, -0.00739312,
+  -2.84605E-009, 0.00231003, -0.00753859, -2.8174E-009, 0.00243024,
+  -0.00767535, -2.76677E-009, 0.00254909, -0.00767359, -2.57467E-009,
+  0.00265819, -0.00706853, -1.4516E-009, 0.00268688, -0.00203254,
+  5.56982E-009, 0.00140224, 0.0845256, -1.0973E-008, 3.16249E-006,
+  2.37454E-005, 0.00224119, -0.0898156, -5.81287E-006, 0.0597738,
+  5.5301E-007, 0.000132727, -1.03555, -1.18067E-007, 0.00927957,
+  4.95199E-007, 0.000102712, -1.23906, -7.34941E-008, 0.00734447,
+  4.1145E-007, 0.000107042, -1.47486, 2.99418E-008, 0.0107552,
+  3.30316E-007, 0.00015333, -1.61752, 2.49065E-007, 0.0194642,
+  2.12867E-007, 0.000294449, -1.57227, 7.42549E-007, 0.03849,
+  3.42591E-008, 0.000579106, -1.27239, 1.58399E-006, 0.0715495,
+  -9.58276E-008, 0.000790527, -1.10063, 2.03087E-006, 0.0954841,
+  -7.75096E-008, 0.000700175, -1.25633, 1.61656E-006, 0.0861835,
+  -3.17734E-008, 0.000541948, -1.44356, 1.10178E-006, 0.068878,
+  -3.53271E-008, 0.000468983, -1.52961, 8.20621E-007, 0.060849,
+  -1.10353E-007, 0.000518929, -1.53501, 7.5804E-007, 0.0670048,
+  -1.9353E-007, 0.000616241, -1.52219, 7.71295E-007, 0.0784988,
+  -4.16846E-008, 0.000169743, -1.49946, 1.64486E-007, 0.0244436,
+  3.71023E-008, 8.49358E-005, -1.1935, 4.42268E-008, 0.0116248,
+  3.52734E-007, 8.40744E-005, -0.608812, -7.60601E-008, 0.00392477,
+  6.77555E-006, 0.00300257, -2.82466, -3.12236E-006, 0.10779,
+  3.76605E-007, 0.00131238, -1.69864, -4.99129E-007, 0.102102,
+  -3.90113E-007, -0.00113459, 0.396527, 9.60773E-007, -0.0628883,
+  2.39072E-007, -5.2523E-005, -0.40551, 1.38072E-008, -0.00704818,
+  -0.0448341, -5.63951E-006, -16.5273, 0.00819898, -5.32333E-006,
+  0.00581017, -4.51407E-006, 0.00377677, -3.80698E-006, 0.00243925,
+  -3.19152E-006, 0.00156598, -2.65681E-006, 0.00099795
